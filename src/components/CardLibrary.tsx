@@ -17,23 +17,22 @@ const CardLibrary = () => {
 
   useEffect(() => {
     const query = searchQuery.toLowerCase();
-  
+
     const filtered = tarotData.filter((card: TarotCard) => {
       const matchesSearch =
         card.name.toLowerCase().includes(query) ||
         card.keywords.some((kw) => kw.toLowerCase().includes(query));
-  
+
       const matchesFilter =
         filter === 'All' ||
         card.arcana === filter ||
         (card.arcana === 'Minor' && card.suit?.toLowerCase() === filter.toLowerCase());
-  
+
       return matchesSearch && matchesFilter;
     });
-  
+
     setFilteredCards(filtered);
   }, [searchQuery, filter, tarotData]);
-  
 
   const handleCardPress = (card: TarotCard) => {
     setSelectedCard(card);
@@ -41,9 +40,9 @@ const CardLibrary = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#F4F1EC] px-4 py-6">
+    <div className="min-h-screen bg-[#F4F1EC] px-4 sm:px-6 py-6">
       {/* Filter Toggle */}
-      <div className="sticky top-0 bg-[#F4F1EC] z-10 py-2">
+      <div className="sticky top-0 bg-[#F4F1EC] z-10 py-3 sm:py-4">
         <FilterToggle selected={filter} onSelect={setFilter} />
       </div>
 
@@ -54,7 +53,7 @@ const CardLibrary = () => {
           placeholder="Search cards..."
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
-          className="w-full px-4 py-2 text-base rounded-xl border border-gray-300 focus:outline-none focus:ring-2 focus:ring-red-400 transition"
+          className="w-full px-4 py-2 rounded-xl border border-gray-300 text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-red-400 transition"
         />
       </div>
 
@@ -64,7 +63,7 @@ const CardLibrary = () => {
           No cards match your search.
         </p>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 pb-20">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4 sm:gap-6 pb-20">
           {filteredCards.map((card) => (
             <CardItem key={card.name} card={card} onPress={() => handleCardPress(card)} />
           ))}
