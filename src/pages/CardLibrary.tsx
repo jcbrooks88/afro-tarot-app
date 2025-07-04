@@ -3,7 +3,7 @@ import tarotData from '../data/tarot_cards.json';
 import CardItem from '../components/CardItem';
 import CardModal from '../components/CardModal';
 import FilterToggle from '../components/FilterToggle';
-import { TarotCard } from '../types/TarotCard';
+import { TarotCard } from '@/types/TarotCard';
 
 type FilterOption = 'All' | 'Major' | 'Minor' | 'Cups' | 'Pentacles' | 'Swords' | 'Wands';
 
@@ -17,7 +17,7 @@ const CardLibrary = () => {
   useEffect(() => {
     const query = searchQuery.toLowerCase();
 
-    const filtered = tarotData.filter((card) => {
+    const filtered = tarotData.filter((card: { name: string; keywords: unknown[]; arcana: string; suit: string; }) => {
       const matchesSearch =
         card.name.toLowerCase().includes(query) ||
         card.keywords.some((kw) => kw.toLowerCase().includes(query));

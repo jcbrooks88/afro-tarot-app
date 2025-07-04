@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import { TarotCard } from '../types/TarotCard';
+import { TarotCard } from '@/types/TarotCard';
 
 interface CardModalProps {
   card: TarotCard | null;

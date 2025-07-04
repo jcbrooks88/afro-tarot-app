@@ -1,13 +1,13 @@
 import React from 'react';
 import Image from 'next/image';
-import { TarotCard } from '../types/TarotCard';
+import { TarotCard } from '@/types/TarotCard';
 
-// Convert card name to slugified image filename (e.g., "The Fool" → "the-fool")
+
 const formatCardName = (name: string) => {
   return name
     .toLowerCase()
-    .replace(/[\s_]+/g, '-')        // replace spaces/underscores with dashes
-    .replace(/[^a-z0-9-]/g, '');    // remove non-alphanumeric characters
+    .replace(/[\s_]+/g, '-')
+    .replace(/[^a-z0-9-]/g, '');
 };
 
 interface CardItemProps {
