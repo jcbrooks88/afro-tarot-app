@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import tarotData from '../data/tarot_cards.json';
-import CardItem from '../components/CardItem';
-import CardModal from '../components/CardModal';
-import FilterToggle from '../components/FilterToggle';
+import CardItem from './CardItem';
+import CardModal from './CardModal';
+import FilterToggle from './FilterToggle';
+import rawData from '../data/tarot_cards.json';
 import { TarotCard } from '@/types/TarotCard';
 
 type FilterOption = 'All' | 'Major' | 'Minor' | 'Cups' | 'Pentacles' | 'Swords' | 'Wands';
@@ -13,25 +13,27 @@ const CardLibrary = () => {
   const [filteredCards, setFilteredCards] = useState<TarotCard[]>([]);
   const [selectedCard, setSelectedCard] = useState<TarotCard | null>(null);
   const [modalVisible, setModalVisible] = useState(false);
+  const tarotData = rawData as TarotCard[];
 
   useEffect(() => {
     const query = searchQuery.toLowerCase();
-
-    const filtered = tarotData.filter((card: { name: string; keywords: unknown[]; arcana: string; suit: string; }) => {
+  
+    const filtered = tarotData.filter((card: TarotCard) => {
       const matchesSearch =
         card.name.toLowerCase().includes(query) ||
         card.keywords.some((kw) => kw.toLowerCase().includes(query));
-
+  
       const matchesFilter =
         filter === 'All' ||
         card.arcana === filter ||
         (card.arcana === 'Minor' && card.suit?.toLowerCase() === filter.toLowerCase());
-
+  
       return matchesSearch && matchesFilter;
     });
-
+  
     setFilteredCards(filtered);
-  }, [searchQuery, filter]);
+  }, [searchQuery, filter, tarotData]);
+  
 
   const handleCardPress = (card: TarotCard) => {
     setSelectedCard(card);

@@ -28,6 +28,7 @@ const CardItem: React.FC<CardItemProps> = ({ card, onPress }) => {
         alt={card.name}
         width={200}
         height={300}
+        style={{ height: 'auto' }}
         onError={(e) => ((e.currentTarget as HTMLImageElement).src = '/images/fallback.webp')}
         className="rounded-lg mb-4"
       />
