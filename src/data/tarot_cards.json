@@ -1,0 +1,1050 @@
+git[
+    {
+      "id": 1,
+      "name": "The Fool",
+      "arcana": "Major",
+      "meaning_up": "New beginnings, optimism, trust in life",
+      "meaning_rev": "Recklessness, taken advantage of, inconsideration",
+      "keywords": [
+        "beginnings",
+        "innocence",
+        "free spirit"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "The Magician",
+      "arcana": "Major",
+      "meaning_up": "Willpower, desire, creation, manifestation",
+      "meaning_rev": "Trickery, illusions, out of touch",
+      "keywords": [
+        "manifestation",
+        "resourcefulness",
+        "power"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "The High Priestess",
+      "arcana": "Major",
+      "meaning_up": "Intuition, unconscious, inner voice",
+      "meaning_rev": "Lack of center, lost inner voice, repressed feelings",
+      "keywords": [
+        "intuition",
+        "sacred knowledge",
+        "divine feminine"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Empress",
+      "arcana": "Major",
+      "meaning_up": "Femininity, beauty, nature, nurturing",
+      "meaning_rev": "Dependence, smothering, emptiness",
+      "keywords": [
+        "fertility",
+        "nature",
+        "abundance"
+      ]
+    },
+    {
+      "id": 5,
+      "name": "The Emperor",
+      "arcana": "Major",
+      "meaning_up": "Authority, structure, control, fatherhood",
+      "meaning_rev": "Domination, excessive control, rigidity",
+      "keywords": [
+        "authority",
+        "establishment",
+        "father figure"
+      ]
+    },
+    {
+      "id": 6,
+      "name": "The Hierophant",
+      "arcana": "Major",
+      "meaning_up": "Tradition, conformity, morality",
+      "meaning_rev": "Rebellion, subversiveness, new approaches",
+      "keywords": [
+        "tradition",
+        "spiritual wisdom",
+        "religious beliefs"
+      ]
+    },
+    {
+      "id": 7,
+      "name": "The Lovers",
+      "arcana": "Major",
+      "meaning_up": "Love, harmony, relationships, alignment",
+      "meaning_rev": "Disharmony, imbalance, misalignment of values",
+      "keywords": [
+        "relationships",
+        "values alignment",
+        "union"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "The Chariot",
+      "arcana": "Major",
+      "meaning_up": "Direction, control, willpower",
+      "meaning_rev": "Lack of control, lack of direction, aggression",
+      "keywords": [
+        "determination",
+        "victory",
+        "action"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Strength",
+      "arcana": "Major",
+      "meaning_up": "Courage, patience, control, compassion",
+      "meaning_rev": "Self-doubt, weakness, insecurity",
+      "keywords": [
+        "bravery",
+        "compassion",
+        "influence"
+      ]
+    },
+    {
+      "id": 10,
+      "name": "The Hermit",
+      "arcana": "Major",
+      "meaning_up": "Soul-searching, introspection, being alone",
+      "meaning_rev": "Isolation, loneliness, withdrawal",
+      "keywords": [
+        "introspection",
+        "solitude",
+        "guidance"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Wheel of Fortune",
+      "arcana": "Major",
+      "meaning_up": "Change, cycles, fate, karma",
+      "meaning_rev": "No control, clinging to control, bad luck",
+      "keywords": [
+        "destiny",
+        "turning point",
+        "movement"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Justice",
+      "arcana": "Major",
+      "meaning_up": "Fairness, truth, law",
+      "meaning_rev": "Unfairness, lack of accountability, dishonesty",
+      "keywords": [
+        "truth",
+        "law",
+        "balance"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "The Hanged Man",
+      "arcana": "Major",
+      "meaning_up": "Sacrifice, release, new perspective",
+      "meaning_rev": "Stalling, needless sacrifice, fear of sacrifice",
+      "keywords": [
+        "pause",
+        "surrender",
+        "letting go"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Death",
+      "arcana": "Major",
+      "meaning_up": "Endings, change, transformation",
+      "meaning_rev": "Resistance to change, personal transformation",
+      "keywords": [
+        "transition",
+        "metamorphosis",
+        "rebirth"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Temperance",
+      "arcana": "Major",
+      "meaning_up": "Balance, moderation, patience",
+      "meaning_rev": "Imbalance, excess, extremes",
+      "keywords": [
+        "harmony",
+        "purpose",
+        "meaning"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "The Devil",
+      "arcana": "Major",
+      "meaning_up": "Addiction, materialism, playfulness",
+      "meaning_rev": "Freedom, release, restoring control",
+      "keywords": [
+        "temptation",
+        "bondage",
+        "shadow self"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "The Tower",
+      "arcana": "Major",
+      "meaning_up": "Sudden upheaval, chaos, revelation",
+      "meaning_rev": "Avoidance of disaster, fear of change",
+      "keywords": [
+        "disruption",
+        "awakening",
+        "breakdown"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "The Star",
+      "arcana": "Major",
+      "meaning_up": "Hope, faith, purpose, renewal",
+      "meaning_rev": "Despair, lack of faith, disconnection",
+      "keywords": [
+        "inspiration",
+        "spirituality",
+        "healing"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "The Moon",
+      "arcana": "Major",
+      "meaning_up": "Illusion, fear, anxiety, subconscious",
+      "meaning_rev": "Release of fear, clarity, understanding",
+      "keywords": [
+        "intuition",
+        "dreams",
+        "deception"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "The Sun",
+      "arcana": "Major",
+      "meaning_up": "Positivity, fun, warmth, success",
+      "meaning_rev": "Negativity, depression, sadness",
+      "keywords": [
+        "joy",
+        "success",
+        "celebration"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Judgement",
+      "arcana": "Major",
+      "meaning_up": "Reflection, reckoning, awakening",
+      "meaning_rev": "Lack of self-awareness, doubt, self-loathing",
+      "keywords": [
+        "absolution",
+        "inner calling",
+        "rebirth"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "The World",
+      "arcana": "Major",
+      "meaning_up": "Completion, achievement, travel",
+      "meaning_rev": "Short cuts, delays, lack of closure",
+      "keywords": [
+        "wholeness",
+        "accomplishment",
+        "integration"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Ace of Cups",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 1,
+      "meaning_up": "Beginnings, potential in emotions and relationships",
+      "meaning_rev": "Reversed beginnings, potential in emotions and relationships",
+      "keywords": [
+        "beginnings, potential",
+        "emotions",
+        "cups"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Two of Cups",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 2,
+      "meaning_up": "Balance, duality in emotions and relationships",
+      "meaning_rev": "Reversed balance, duality in emotions and relationships",
+      "keywords": [
+        "balance, duality",
+        "emotions",
+        "cups"
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Three of Cups",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 3,
+      "meaning_up": "Growth, creativity in emotions and relationships",
+      "meaning_rev": "Reversed growth, creativity in emotions and relationships",
+      "keywords": [
+        "growth, creativity",
+        "emotions",
+        "cups"
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Four of Cups",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 4,
+      "meaning_up": "Stability, structure in emotions and relationships",
+      "meaning_rev": "Reversed stability, structure in emotions and relationships",
+      "keywords": [
+        "stability, structure",
+        "emotions",
+        "cups"
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Five of Cups",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 5,
+      "meaning_up": "Conflict, change in emotions and relationships",
+      "meaning_rev": "Reversed conflict, change in emotions and relationships",
+      "keywords": [
+        "conflict, change",
+        "emotions",
+        "cups"
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Six of Cups",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 6,
+      "meaning_up": "Harmony, cooperation in emotions and relationships",
+      "meaning_rev": "Reversed harmony, cooperation in emotions and relationships",
+      "keywords": [
+        "harmony, cooperation",
+        "emotions",
+        "cups"
+      ]
+    },
+    {
+      "id": 29,
+      "name": "Seven of Cups",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 7,
+      "meaning_up": "Reflection, assessment in emotions and relationships",
+      "meaning_rev": "Reversed reflection, assessment in emotions and relationships",
+      "keywords": [
+        "reflection, assessment",
+        "emotions",
+        "cups"
+      ]
+    },
+    {
+      "id": 30,
+      "name": "Eight of Cups",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 8,
+      "meaning_up": "Movement, change in emotions and relationships",
+      "meaning_rev": "Reversed movement, change in emotions and relationships",
+      "keywords": [
+        "movement, change",
+        "emotions",
+        "cups"
+      ]
+    },
+    {
+      "id": 31,
+      "name": "Nine of Cups",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 9,
+      "meaning_up": "Fruition, attainment in emotions and relationships",
+      "meaning_rev": "Reversed fruition, attainment in emotions and relationships",
+      "keywords": [
+        "fruition, attainment",
+        "emotions",
+        "cups"
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Ten of Cups",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 10,
+      "meaning_up": "Completion, fulfillment in emotions and relationships",
+      "meaning_rev": "Reversed completion, fulfillment in emotions and relationships",
+      "keywords": [
+        "completion, fulfillment",
+        "emotions",
+        "cups"
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Page of Cups",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 11,
+      "meaning_up": "Curiosity, new stage expressed through emotions and relationships",
+      "meaning_rev": "Reversed curiosity, new stage in emotions and relationships",
+      "keywords": [
+        "curiosity, new stage",
+        "emotions",
+        "cups"
+      ]
+    },
+    {
+      "id": 34,
+      "name": "Knight of Cups",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 12,
+      "meaning_up": "Action, pursuit expressed through emotions and relationships",
+      "meaning_rev": "Reversed action, pursuit in emotions and relationships",
+      "keywords": [
+        "action, pursuit",
+        "emotions",
+        "cups"
+      ]
+    },
+    {
+      "id": 35,
+      "name": "Queen of Cups",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 13,
+      "meaning_up": "Understanding, mastery expressed through emotions and relationships",
+      "meaning_rev": "Reversed understanding, mastery in emotions and relationships",
+      "keywords": [
+        "understanding, mastery",
+        "emotions",
+        "cups"
+      ]
+    },
+    {
+      "id": 36,
+      "name": "King of Cups",
+      "arcana": "Minor",
+      "suit": "Cups",
+      "number": 14,
+      "meaning_up": "Authority, control expressed through emotions and relationships",
+      "meaning_rev": "Reversed authority, control in emotions and relationships",
+      "keywords": [
+        "authority, control",
+        "emotions",
+        "cups"
+      ]
+    },
+    {
+      "id": 37,
+      "name": "Ace of Pentacles",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 1,
+      "meaning_up": "Beginnings, potential in material aspects and career",
+      "meaning_rev": "Reversed beginnings, potential in material aspects and career",
+      "keywords": [
+        "beginnings, potential",
+        "material",
+        "pentacles"
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Two of Pentacles",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 2,
+      "meaning_up": "Balance, duality in material aspects and career",
+      "meaning_rev": "Reversed balance, duality in material aspects and career",
+      "keywords": [
+        "balance, duality",
+        "material",
+        "pentacles"
+      ]
+    },
+    {
+      "id": 39,
+      "name": "Three of Pentacles",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 3,
+      "meaning_up": "Growth, creativity in material aspects and career",
+      "meaning_rev": "Reversed growth, creativity in material aspects and career",
+      "keywords": [
+        "growth, creativity",
+        "material",
+        "pentacles"
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Four of Pentacles",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 4,
+      "meaning_up": "Stability, structure in material aspects and career",
+      "meaning_rev": "Reversed stability, structure in material aspects and career",
+      "keywords": [
+        "stability, structure",
+        "material",
+        "pentacles"
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Five of Pentacles",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 5,
+      "meaning_up": "Conflict, change in material aspects and career",
+      "meaning_rev": "Reversed conflict, change in material aspects and career",
+      "keywords": [
+        "conflict, change",
+        "material",
+        "pentacles"
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Six of Pentacles",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 6,
+      "meaning_up": "Harmony, cooperation in material aspects and career",
+      "meaning_rev": "Reversed harmony, cooperation in material aspects and career",
+      "keywords": [
+        "harmony, cooperation",
+        "material",
+        "pentacles"
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Seven of Pentacles",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 7,
+      "meaning_up": "Reflection, assessment in material aspects and career",
+      "meaning_rev": "Reversed reflection, assessment in material aspects and career",
+      "keywords": [
+        "reflection, assessment",
+        "material",
+        "pentacles"
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Eight of Pentacles",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 8,
+      "meaning_up": "Movement, change in material aspects and career",
+      "meaning_rev": "Reversed movement, change in material aspects and career",
+      "keywords": [
+        "movement, change",
+        "material",
+        "pentacles"
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Nine of Pentacles",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 9,
+      "meaning_up": "Fruition, attainment in material aspects and career",
+      "meaning_rev": "Reversed fruition, attainment in material aspects and career",
+      "keywords": [
+        "fruition, attainment",
+        "material",
+        "pentacles"
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Ten of Pentacles",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 10,
+      "meaning_up": "Completion, fulfillment in material aspects and career",
+      "meaning_rev": "Reversed completion, fulfillment in material aspects and career",
+      "keywords": [
+        "completion, fulfillment",
+        "material",
+        "pentacles"
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Page of Pentacles",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 11,
+      "meaning_up": "Curiosity, new stage expressed through material aspects and career",
+      "meaning_rev": "Reversed curiosity, new stage in material aspects and career",
+      "keywords": [
+        "curiosity, new stage",
+        "material",
+        "pentacles"
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Knight of Pentacles",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 12,
+      "meaning_up": "Action, pursuit expressed through material aspects and career",
+      "meaning_rev": "Reversed action, pursuit in material aspects and career",
+      "keywords": [
+        "action, pursuit",
+        "material",
+        "pentacles"
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Queen of Pentacles",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 13,
+      "meaning_up": "Understanding, mastery expressed through material aspects and career",
+      "meaning_rev": "Reversed understanding, mastery in material aspects and career",
+      "keywords": [
+        "understanding, mastery",
+        "material",
+        "pentacles"
+      ]
+    },
+    {
+      "id": 50,
+      "name": "King of Pentacles",
+      "arcana": "Minor",
+      "suit": "Pentacles",
+      "number": 14,
+      "meaning_up": "Authority, control expressed through material aspects and career",
+      "meaning_rev": "Reversed authority, control in material aspects and career",
+      "keywords": [
+        "authority, control",
+        "material",
+        "pentacles"
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Ace of Swords",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 1,
+      "meaning_up": "Beginnings, potential in intellect and conflict",
+      "meaning_rev": "Reversed beginnings, potential in intellect and conflict",
+      "keywords": [
+        "beginnings, potential",
+        "intellect",
+        "swords"
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Two of Swords",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 2,
+      "meaning_up": "Balance, duality in intellect and conflict",
+      "meaning_rev": "Reversed balance, duality in intellect and conflict",
+      "keywords": [
+        "balance, duality",
+        "intellect",
+        "swords"
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Three of Swords",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 3,
+      "meaning_up": "Growth, creativity in intellect and conflict",
+      "meaning_rev": "Reversed growth, creativity in intellect and conflict",
+      "keywords": [
+        "growth, creativity",
+        "intellect",
+        "swords"
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Four of Swords",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 4,
+      "meaning_up": "Stability, structure in intellect and conflict",
+      "meaning_rev": "Reversed stability, structure in intellect and conflict",
+      "keywords": [
+        "stability, structure",
+        "intellect",
+        "swords"
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Five of Swords",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 5,
+      "meaning_up": "Conflict, change in intellect and conflict",
+      "meaning_rev": "Reversed conflict, change in intellect and conflict",
+      "keywords": [
+        "conflict, change",
+        "intellect",
+        "swords"
+      ]
+    },
+    {
+      "id": 56,
+      "name": "Six of Swords",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 6,
+      "meaning_up": "Harmony, cooperation in intellect and conflict",
+      "meaning_rev": "Reversed harmony, cooperation in intellect and conflict",
+      "keywords": [
+        "harmony, cooperation",
+        "intellect",
+        "swords"
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Seven of Swords",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 7,
+      "meaning_up": "Reflection, assessment in intellect and conflict",
+      "meaning_rev": "Reversed reflection, assessment in intellect and conflict",
+      "keywords": [
+        "reflection, assessment",
+        "intellect",
+        "swords"
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Eight of Swords",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 8,
+      "meaning_up": "Movement, change in intellect and conflict",
+      "meaning_rev": "Reversed movement, change in intellect and conflict",
+      "keywords": [
+        "movement, change",
+        "intellect",
+        "swords"
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Nine of Swords",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 9,
+      "meaning_up": "Fruition, attainment in intellect and conflict",
+      "meaning_rev": "Reversed fruition, attainment in intellect and conflict",
+      "keywords": [
+        "fruition, attainment",
+        "intellect",
+        "swords"
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Ten of Swords",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 10,
+      "meaning_up": "Completion, fulfillment in intellect and conflict",
+      "meaning_rev": "Reversed completion, fulfillment in intellect and conflict",
+      "keywords": [
+        "completion, fulfillment",
+        "intellect",
+        "swords"
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Page of Swords",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 11,
+      "meaning_up": "Curiosity, new stage expressed through intellect and conflict",
+      "meaning_rev": "Reversed curiosity, new stage in intellect and conflict",
+      "keywords": [
+        "curiosity, new stage",
+        "intellect",
+        "swords"
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Knight of Swords",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 12,
+      "meaning_up": "Action, pursuit expressed through intellect and conflict",
+      "meaning_rev": "Reversed action, pursuit in intellect and conflict",
+      "keywords": [
+        "action, pursuit",
+        "intellect",
+        "swords"
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Queen of Swords",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 13,
+      "meaning_up": "Understanding, mastery expressed through intellect and conflict",
+      "meaning_rev": "Reversed understanding, mastery in intellect and conflict",
+      "keywords": [
+        "understanding, mastery",
+        "intellect",
+        "swords"
+      ]
+    },
+    {
+      "id": 64,
+      "name": "King of Swords",
+      "arcana": "Minor",
+      "suit": "Swords",
+      "number": 14,
+      "meaning_up": "Authority, control expressed through intellect and conflict",
+      "meaning_rev": "Reversed authority, control in intellect and conflict",
+      "keywords": [
+        "authority, control",
+        "intellect",
+        "swords"
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Ace of Wands",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 1,
+      "meaning_up": "Beginnings, potential in inspiration and willpower",
+      "meaning_rev": "Reversed beginnings, potential in inspiration and willpower",
+      "keywords": [
+        "beginnings, potential",
+        "inspiration",
+        "wands"
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Two of Wands",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 2,
+      "meaning_up": "Balance, duality in inspiration and willpower",
+      "meaning_rev": "Reversed balance, duality in inspiration and willpower",
+      "keywords": [
+        "balance, duality",
+        "inspiration",
+        "wands"
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Three of Wands",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 3,
+      "meaning_up": "Growth, creativity in inspiration and willpower",
+      "meaning_rev": "Reversed growth, creativity in inspiration and willpower",
+      "keywords": [
+        "growth, creativity",
+        "inspiration",
+        "wands"
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Four of Wands",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 4,
+      "meaning_up": "Stability, structure in inspiration and willpower",
+      "meaning_rev": "Reversed stability, structure in inspiration and willpower",
+      "keywords": [
+        "stability, structure",
+        "inspiration",
+        "wands"
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Five of Wands",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 5,
+      "meaning_up": "Conflict, change in inspiration and willpower",
+      "meaning_rev": "Reversed conflict, change in inspiration and willpower",
+      "keywords": [
+        "conflict, change",
+        "inspiration",
+        "wands"
+      ]
+    },
+    {
+      "id": 70,
+      "name": "Six of Wands",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 6,
+      "meaning_up": "Harmony, cooperation in inspiration and willpower",
+      "meaning_rev": "Reversed harmony, cooperation in inspiration and willpower",
+      "keywords": [
+        "harmony, cooperation",
+        "inspiration",
+        "wands"
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Seven of Wands",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 7,
+      "meaning_up": "Reflection, assessment in inspiration and willpower",
+      "meaning_rev": "Reversed reflection, assessment in inspiration and willpower",
+      "keywords": [
+        "reflection, assessment",
+        "inspiration",
+        "wands"
+      ]
+    },
+    {
+      "id": 72,
+      "name": "Eight of Wands",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 8,
+      "meaning_up": "Movement, change in inspiration and willpower",
+      "meaning_rev": "Reversed movement, change in inspiration and willpower",
+      "keywords": [
+        "movement, change",
+        "inspiration",
+        "wands"
+      ]
+    },
+    {
+      "id": 73,
+      "name": "Nine of Wands",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 9,
+      "meaning_up": "Fruition, attainment in inspiration and willpower",
+      "meaning_rev": "Reversed fruition, attainment in inspiration and willpower",
+      "keywords": [
+        "fruition, attainment",
+        "inspiration",
+        "wands"
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Ten of Wands",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 10,
+      "meaning_up": "Completion, fulfillment in inspiration and willpower",
+      "meaning_rev": "Reversed completion, fulfillment in inspiration and willpower",
+      "keywords": [
+        "completion, fulfillment",
+        "inspiration",
+        "wands"
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Page of Wands",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 11,
+      "meaning_up": "Curiosity, new stage expressed through inspiration and willpower",
+      "meaning_rev": "Reversed curiosity, new stage in inspiration and willpower",
+      "keywords": [
+        "curiosity, new stage",
+        "inspiration",
+        "wands"
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Knight of Wands",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 12,
+      "meaning_up": "Action, pursuit expressed through inspiration and willpower",
+      "meaning_rev": "Reversed action, pursuit in inspiration and willpower",
+      "keywords": [
+        "action, pursuit",
+        "inspiration",
+        "wands"
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Queen of Wands",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 13,
+      "meaning_up": "Understanding, mastery expressed through inspiration and willpower",
+      "meaning_rev": "Reversed understanding, mastery in inspiration and willpower",
+      "keywords": [
+        "understanding, mastery",
+        "inspiration",
+        "wands"
+      ]
+    },
+    {
+      "id": 78,
+      "name": "King of Wands",
+      "arcana": "Minor",
+      "suit": "Wands",
+      "number": 14,
+      "meaning_up": "Authority, control expressed through inspiration and willpower",
+      "meaning_rev": "Reversed authority, control in inspiration and willpower",
+      "keywords": [
+        "authority, control",
+        "inspiration",
+        "wands"
+      ]
+    }
+  ]
