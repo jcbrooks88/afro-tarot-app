@@ -1,7 +1,11 @@
 import React from 'react';
-import { Modal, View, Text, StyleSheet, Image, Pressable } from 'react-native';
+import Image from 'next/image';
 import { TarotCard } from '../types/TarotCard';
-import cardImages from '../assets/images/cardImages';
+
+interface CardModalProps {
+  card: TarotCard | null;
+  onClose: () => void;
+}
 
 const formatCardName = (name: string) => {
   return name
@@ -10,99 +14,43 @@ const formatCardName = (name: string) => {
     .replace(/[^a-z0-9-]/g, '');
 };
 
-interface CardModalProps {
-  visible: boolean;
-  card: TarotCard | null;
-  onClose: () => void;
-}
-
-const CardModal: React.FC<CardModalProps> = ({ visible, card, onClose }) => {
+const CardModal: React.FC<CardModalProps> = ({ card, onClose }) => {
   if (!card) return null;
 
   const imageName = formatCardName(card.name);
-  const imageSource = cardImages[imageName]
-    ? cardImages[imageName]
-    : require('../assets/images/back-up-image.png');
 
   return (
-    <Modal visible={visible} animationType="slide" transparent>
-      <View style={styles.overlay}>
-        <View style={styles.modalContent}>
-          <Image source={imageSource} style={styles.image} resizeMode="contain" />
-          <Text style={styles.title}>{card.name}</Text>
-          <Text style={styles.arcana}>{card.arcana} Arcana</Text>
-          <Text style={styles.keywords}>{card.keywords.join(' • ')}</Text>
-          <Text style={styles.description}>{card.description}</Text>
-          <Pressable onPress={onClose} style={styles.closeButton}>
-            <Text style={styles.closeText}>Close</Text>
-          </Pressable>
-        </View>
-      </View>
-    </Modal>
+    <div className="fixed inset-0 z-50 bg-black bg-opacity-60 flex items-center justify-center px-4">
+      <div className="bg-white rounded-2xl shadow-xl p-6 max-w-md w-full relative overflow-y-auto max-h-[90vh]">
+        <button
+          onClick={onClose}
+          className="absolute top-3 right-3 text-gray-400 hover:text-gray-700 text-lg font-bold"
+          aria-label="Close modal"
+        >
+          ✕
+        </button>
+
+        <div className="flex flex-col items-center">
+          <Image
+            src={`/images/${imageName}.webp`}
+            alt={card.name}
+            width={300}
+            height={400}
+            className="rounded-lg mb-4"
+            onError={(e) => ((e.currentTarget as HTMLImageElement).src = '/images/fallback.webp')}
+          />
+          <h2 className="text-2xl font-bold text-gray-900 mb-1">{card.name}</h2>
+          <p className="italic text-sm text-gray-500 mb-3">{card.arcana} Arcana</p>
+          <p className="text-sm text-gray-600 text-center mb-4">
+            {card.keywords.join(' • ')}
+          </p>
+          <p className="text-base text-gray-700 text-center leading-relaxed">
+            {card.description || card.meaning_up}
+          </p>
+        </div>
+      </div>
+    </div>
   );
 };
-
-const styles = StyleSheet.create({
-  overlay: {
-    flex: 1,
-    backgroundColor: 'rgba(0,0,0,0.6)',
-    justifyContent: 'center',
-    padding: 20,
-  },
-  modalContent: {
-    backgroundColor: '#ffffff',
-    borderRadius: 20,
-    padding: 24,
-    alignItems: 'center',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 4 },
-    shadowOpacity: 0.2,
-    shadowRadius: 12,
-    elevation: 10,
-  },
-  image: {
-    width: 380,
-    height: 460,
-    marginBottom: 20,
-    borderRadius: 12,
-  },
-  title: {
-    fontSize: 24,
-    fontWeight: '700',
-    color: '#1e1e1e',
-    marginBottom: 4,
-  },
-  arcana: {
-    fontSize: 16,
-    fontStyle: 'italic',
-    color: '#888',
-    marginBottom: 8,
-  },
-  keywords: {
-    fontSize: 14,
-    color: '#555',
-    marginBottom: 12,
-    textAlign: 'center',
-  },
-  description: {
-    fontSize: 15,
-    lineHeight: 22,
-    textAlign: 'center',
-    color: '#333',
-    marginBottom: 24,
-    paddingHorizontal: 8,
-  },
-  closeButton: {
-    paddingVertical: 10,
-    paddingHorizontal: 24,
-    backgroundColor: '#1e1e1e',
-    borderRadius: 10,
-  },
-  closeText: {
-    color: '#fff',
-    fontSize: 16,
-    fontWeight: '600',
-  },
-});
 
 export default CardModal;
