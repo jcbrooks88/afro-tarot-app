@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Tarot Explorer</title>
+        <title>Brooks House Tarot Explorer </title>
         <meta
           name="description"
           content="Explore tarot cards by arcana, suit, and keyword."
