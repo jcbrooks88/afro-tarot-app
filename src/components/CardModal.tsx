@@ -62,18 +62,17 @@ const CardModal: React.FC<CardModalProps> = ({ card, onClose }) => {
 
           <div className="text-sm sm:text-base text-gray-700 space-y-3 leading-relaxed text-left px-2">
             <p>
-              <span className="font-semibold">Standard Meaning:</span>{' '}
-              {card.meaning_up}
-            </p>
-            <p>
-              <span className="font-semibold">Reversed Meaning:</span>{' '}
-              {card.meaning_rev}
+              <span className="font-semibold">Description:</span>{' '}
+              {card.description}
             </p>
             {card.description && (
-              <p>
-                <span className="font-semibold">Description:</span>{' '}
-                {card.description}
-              </p>
+            <><p>
+                <span className="font-semibold">Standard Meaning:</span>{' '}
+                {card.description_up}
+              </p><p>
+                  <span className="font-semibold">Reversed Meaning:</span>{' '}
+                  {card.description_rev}
+                </p></>
             )}
           </div>
         </div>

@@ -41,7 +41,12 @@ const CardItem: React.FC<CardItemProps> = ({ card, onPress }) => {
 
       <p className="text-xs sm:text-sm text-gray-500 text-center line-clamp-2">
         {card.keywords.join(', ')}
+        <br></br>
+        {card.meaning_up}
+        <br></br>
+        {card.meaning_rev}
       </p>
+      
     </div>
   );
 };
