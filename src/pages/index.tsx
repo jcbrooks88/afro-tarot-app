@@ -18,7 +18,7 @@ const Home = () => {
         <header className="bg-[#8c3030] shadow-md">
           <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 py-6 text-center">
             <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-snug">
-              Tarot Explorer
+              Brooks House Tarot Explorer
             </h1>
             <p className="mt-2 text-sm sm:text-base text-gray-200 max-w-sm sm:max-w-md mx-auto px-2">
               Browse and learn the meanings of tarot cards
