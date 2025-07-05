@@ -100,9 +100,9 @@
         "values alignment",
         "union"
       ],
-      "description": "",
-      "description_up": "",
-      "description_rev": ""
+      "description": "The Lovers card reflects union, partnership, and choices that resonate with the heart. It signifies meaningful relationships and the harmony that comes from authentic connection. Often, it represents a major life decision about values and alignment.",
+      "description_up": "Love, alignment, and emotional connection. A time for deep bonds and making choices based on personal truth. Follow what feels right to your soul.",
+      "description_rev": "Imbalance, misalignment, or difficult choices. A relationship or decision may be out of sync with your values. Take time to evaluate what truly matters."
     },
     {
       "id": 8,
@@ -115,9 +115,9 @@
         "victory",
         "action"
       ],
-      "description": "",
-      "description_up": "",
-      "description_rev": ""
+      "description": "The Chariot stands for determination, control, and willpower. It represents triumph through discipline and focus. This card tells you to stay the course and drive forward with confidence.",
+      "description_up": "Victory, control, and ambition. You have the strength to overcome obstacles through focus and discipline. Push forward and claim your success.",
+      "description_rev": "Lack of direction, scattered energy, or defeat. You may be struggling to stay on track or forcing control. Recenter and realign your goals before moving forward."
     },
     {
       "id": 9,
@@ -130,9 +130,9 @@
         "compassion",
         "influence"
       ],
-      "description": "",
-      "description_up": "",
-      "description_rev": ""
+      "description": "Strength represents inner power, patience, and compassion. It emphasizes calm courage over brute force. This card suggests that true power comes from gentle resilience and emotional mastery.",
+      "description_up": "Courage, compassion, and resilience. Approach challenges with grace and patience. Trust in your ability to remain grounded through adversity.",
+      "description_rev": "Self-doubt, weakness, or emotional overwhelm. You may be lacking confidence or struggling to manage strong feelings. Reconnect with your inner strength."
     },
     {
       "id": 10,
@@ -145,9 +145,9 @@
         "solitude",
         "guidance"
       ],
-      "description": "",
-      "description_up": "",
-      "description_rev": ""
+      "description": "The Hermit symbolizes introspection, solitude, and the search for deeper truth. It encourages stepping back from the noise to find clarity. This card points to a time of spiritual growth or self-discovery.",
+      "description_up": "Inner guidance, solitude, and reflection. Take time for yourself to reconnect with your path. Answers will come from within.",
+      "description_rev": "Isolation, loneliness, or avoidance. You may be retreating too far or resisting connection. Consider if solitude is serving your growth or masking discomfort."
     },
     {
       "id": 11,
@@ -160,9 +160,9 @@
         "turning point",
         "movement"
       ],
-      "description": "",
-      "description_up": "",
-      "description_rev": ""
+      "description": "The Wheel of Fortune represents fate, cycles, and change. It reminds you that life is constantly shifting, and the wheel turns in your favor or against you. Be adaptable and trust in the rhythm of life.",
+      "description_up": "Luck, destiny, and turning points. Big changes are unfolding, often beyond your control. Stay open to new opportunities and shifts in fortune.",
+      "description_rev": "Resistance to change, bad luck, or repeating cycles. You may feel stuck or caught in an unhelpful pattern. Reflect on how to regain agency in your life."
     },
     {
       "id": 12,
@@ -175,9 +175,9 @@
         "law",
         "balance"
       ],
-      "description": "",
-      "description_up": "",
-      "description_rev": ""
+      "description": "Justice is about fairness, truth, and accountability. It calls for balance, integrity, and thoughtful decisions. This card often appears when you must take responsibility or seek what is right.",
+      "description_up": "Fairness, truth, and legal matters. Act with integrity and accept the consequences of your actions. Seek clarity and fairness in decision-making.",
+      "description_rev": "Injustice, dishonesty, or imbalance. You might be avoiding accountability or facing unfair treatment. Reassess the situation with objectivity."
     },
     {
       "id": 13,
@@ -190,9 +190,9 @@
         "surrender",
         "letting go"
       ],
-      "description": "",
-      "description_up": "",
-      "description_rev": ""
+      "description": "The Hanged Man signifies surrender, letting go, and seeing things from a new perspective. It asks you to pause and reflect rather than force action. This card can also indicate a need for spiritual sacrifice.",
+      "description_up": "Pause, surrender, and insight. Step back to gain a new understanding. Sometimes waiting is the most powerful move.",
+      "description_rev": "Stagnation, resistance, or victim mentality. You may be unwilling to release control. Let go to allow new perspectives to emerge."
     },
     {
       "id": 14,
@@ -205,9 +205,9 @@
         "metamorphosis",
         "rebirth"
       ],
-      "description": "",
-      "description_up": "",
-      "description_rev": ""
+      "description": "Death represents transformation, endings, and rebirth. Though it may feel like loss, this card is about profound change and release. It invites you to shed the old and make way for the new.",
+      "description_up": "Transformation, closure, and renewal. Let go of what no longer serves you. A powerful cycle is ending, making space for growth.",
+      "description_rev": "Resistance to change, stagnation, or fear of endings. You may be clinging to the past. Embrace the natural cycles of transformation."
     },
     {
       "id": 15,
@@ -220,9 +220,9 @@
         "purpose",
         "meaning"
       ],
-      "description": "",
-      "description_up": "",
-      "description_rev": ""
+      "description": "Temperance symbolizes balance, harmony, and moderation. It asks for a blending of opposites and finding your center. This card often appears when you need to restore equilibrium or approach life with patience.",
+      "description_up": "Balance, healing, and patience. Move forward with care and integration. A calm and measured approach leads to long-term peace.",
+      "description_rev": "Imbalance, excess, or impatience. You might be overdoing something or feeling out of sync. Recalibrate and find your center."
     },
     {
       "id": 16,
@@ -235,9 +235,9 @@
         "bondage",
         "shadow self"
       ],
-      "description": "",
-      "description_up": "",
-      "description_rev": ""
+      "description": "The Devil represents temptation, addiction, and materialism. It reflects the chains we willingly accept or the illusions that keep us trapped. This card asks you to confront your shadow and reclaim your power.",
+      "description_up": "Bondage, temptation, and shadow work. You may be stuck in unhealthy habits or relationships. Awareness is the first step to freedom.",
+      "description_rev": "Liberation, breaking chains, and reclaiming power. You're becoming aware of limiting patterns. It's time to release what holds you back."
     },
     {
       "id": 17,
@@ -250,9 +250,9 @@
         "awakening",
         "breakdown"
       ],
-      "description": "",
-      "description_up": "",
-      "description_rev": ""
+      "description": "The Tower symbolizes sudden upheaval, revelation, and the breakdown of false structures. Though it brings chaos, it also clears the way for truth. Expect the unexpected and be open to radical transformation.",
+      "description_up": "Sudden change, awakening, and release. Something unstable must fall so truth can emerge. Embrace the destruction as a path to renewal.",
+      "description_rev": "Avoidance of change or lingering upheaval. You may be resisting a necessary breakdown. Let go before the universe forces your hand."
     },
     {
       "id": 18,
@@ -265,9 +265,9 @@
         "spirituality",
         "healing"
       ],
-      "description": "",
-      "description_up": "",
-      "description_rev": ""
+      "description": "The Star brings hope, inspiration, and spiritual clarity. It follows the destruction of The Tower and offers healing and peace. This card reminds you that brighter days are ahead.",
+      "description_up": "Hope, renewal, and guidance. Trust in your path and let your light shine. You are supported by the universe.",
+      "description_rev": "Doubt, despair, or disconnection. You may have lost sight of hope. Reconnect with what inspires you."
     },
     {
       "id": 19,
@@ -280,9 +280,9 @@
         "dreams",
         "deception"
       ],
-      "description": "",
-      "description_up": "",
-      "description_rev": ""
+      "description": "The Moon signifies illusion, intuition, and the subconscious. It reveals what lies beneath the surface and encourages inner exploration. Be cautious of confusion or emotional deception.",
+      "description_up": "Mystery, dreams, and intuition. Trust your instincts and pay attention to subtle signs. Things are not as they seem.",
+      "description_rev": "Clarity, release of fear, or hidden truths revealed. You're beginning to see through illusions. Let light into the shadows."
     },
     {
       "id": 20,
@@ -295,9 +295,9 @@
         "success",
         "celebration"
       ],
-      "description": "",
-      "description_up": "",
-      "description_rev": ""
+      "description": "The Sun represents joy, vitality, and success. It brings light, warmth, and confidence. This card suggests everything is falling into place and celebrates the beauty of life.",
+      "description_up": "Happiness, success, and radiance. You are aligned with your purpose and joyfully expressing yourself. Embrace the moment.",
+      "description_rev": "Temporary setbacks, pessimism, or blocked joy. You may not be seeing the positives. Shift your perspective and reconnect with gratitude."
     },
     {
       "id": 21,
@@ -310,9 +310,9 @@
         "inner calling",
         "rebirth"
       ],
-      "description": "",
-      "description_up": "",
-      "description_rev": ""
+      "description": " Judgement speaks to rebirth, evaluation, and higher calling. It marks a time of awakening or self-assessment. This card invites reflection on your path and a decision to evolve.",
+      "description_up": "Awakening, accountability, and renewal. You're being called to rise and transform. Let go of guilt and step into your purpose.",
+      "description_rev": "Self-doubt, regret, or fear of change. You may be avoiding a reckoning. Take responsibility and allow healing."
     },
     {
       "id": 22,
@@ -325,9 +325,9 @@
         "accomplishment",
         "integration"
       ],
-      "description": "",
-      "description_up": "",
-      "description_rev": ""
+      "description": "The World signifies completion, accomplishment, and wholeness. It marks the end of a journey and the start of a new one. This card celebrates integration and global understanding.",
+      "description_up": "Fulfillment, success, and unity. You’ve reached a milestone and are ready for what’s next. Honor how far you've come.",
+      "description_rev": "Incomplete cycles, delays, or lack of closure. Something may still be unresolved. Revisit loose ends before moving forward."
     },
     {
       "id": 23,
