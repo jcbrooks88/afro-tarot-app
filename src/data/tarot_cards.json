@@ -25,9 +25,9 @@
         "resourcefulness",
         "power"
       ],
-      "description": "",
-      "description_up": "",
-      "description_rev": ""
+      "description": "The Magician stands for manifestation, power, and resourcefulness. He uses all tools at his disposal—mind, body, spirit, and emotions—to bring dreams into reality. This card reminds you that you already have everything you need within you.",
+      "description_up": "Skill, action, and inspired choices. You’re in a powerful position to create change and turn ideas into tangible results. Use your talents wisely and act with confidence.",
+      "description_rev": "Manipulation, deception, or misuse of power. There may be trickery at play, or you’re not using your potential effectively. Check your intentions and ensure you're not leading yourself or others astray."
     },
     {
       "id": 3,
@@ -40,7 +40,9 @@
         "sacred knowledge",
         "divine feminine"
       ],
-      "description": ""
+      "description": "The High Priestess represents intuition, mystery, and inner knowledge. She is the guardian of subconscious wisdom and hidden truths. This card invites quiet reflection and trust in your inner voice.",
+      "description_up": "Intuition, divine feminine energy, and spiritual insight. Now is the time to listen more than speak and observe more than act. Pay attention to your dreams and subtle messages from your environment.",
+      "description_rev": "Secrets, disconnection from intuition, or repression. You may be ignoring your inner guidance or refusing to acknowledge what you feel deep down. Create space for stillness and honesty with yourself."
     },
     {
       "id": 4,
@@ -53,7 +55,9 @@
         "nature",
         "abundance"
       ],
-      "description": ""
+      "description": "The Empress is a symbol of nurturing, abundance, and the beauty of creation. She connects deeply to nature, fertility, and the divine feminine. This card suggests a time of growth and creativity.",
+      "description_up": "Nurturing energy, fertility (literal or metaphorical), and emotional fulfillment. Embrace compassion and allow yourself to receive love and abundance. This is a powerful time for artistic or relationship growth.",
+      "description_rev": "Dependence, creative blocks, or smothering tendencies. You might be giving too much or not feeling valued. Take time to nourish yourself and examine boundaries in relationships."
     },
     {
       "id": 5,
@@ -66,7 +70,9 @@
         "establishment",
         "father figure"
       ],
-      "description": ""
+      "description": "The Emperor represents structure, authority, and control. He is the father figure of the Tarot, embodying leadership, logic, and stability. This card brings a message of protection through discipline and order.",
+      "description_up": "Leadership, foundation, and taking control. It's time to assert yourself, set rules, and bring order to chaos. Use rationality and long-term planning to establish stability.",
+      "description_rev": "Domination, rigidity, or lack of control. You may be feeling restricted by rules or misusing your authority. Reassess power dynamics and find a healthier approach to leadership."
     },
     {
       "id": 6,
@@ -79,7 +85,9 @@
         "spiritual wisdom",
         "religious beliefs"
       ],
-      "description": ""
+      "description": "The Hierophant symbolizes tradition, spiritual authority, and societal structures. It often represents a teacher or mentor figure who guides others through established systems or beliefs. This card encourages seeking wisdom through conventional channels.",
+      "description_up": "Tradition, conformity, and spiritual guidance. Embrace established systems or seek counsel from a trusted teacher. This may be a time to align with collective values.",
+      "description_rev": "Rebellion, nonconformity, or misalignment with societal norms. You might be questioning traditions or authority figures. It’s a sign to explore your own beliefs more deeply."
     },
     {
       "id": 7,
@@ -92,7 +100,9 @@
         "values alignment",
         "union"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 8,
@@ -105,7 +115,9 @@
         "victory",
         "action"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 9,
@@ -118,7 +130,9 @@
         "compassion",
         "influence"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 10,
@@ -131,7 +145,9 @@
         "solitude",
         "guidance"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 11,
@@ -144,7 +160,9 @@
         "turning point",
         "movement"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 12,
@@ -157,7 +175,9 @@
         "law",
         "balance"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 13,
@@ -170,7 +190,9 @@
         "surrender",
         "letting go"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 14,
@@ -183,7 +205,9 @@
         "metamorphosis",
         "rebirth"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 15,
@@ -196,7 +220,9 @@
         "purpose",
         "meaning"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 16,
@@ -209,7 +235,9 @@
         "bondage",
         "shadow self"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 17,
@@ -222,7 +250,9 @@
         "awakening",
         "breakdown"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 18,
@@ -235,7 +265,9 @@
         "spirituality",
         "healing"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 19,
@@ -248,7 +280,9 @@
         "dreams",
         "deception"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 20,
@@ -261,7 +295,9 @@
         "success",
         "celebration"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 21,
@@ -274,7 +310,9 @@
         "inner calling",
         "rebirth"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 22,
@@ -287,7 +325,9 @@
         "accomplishment",
         "integration"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 23,
@@ -302,7 +342,9 @@
         "emotions",
         "cups"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 24,
@@ -317,7 +359,9 @@
         "emotions",
         "cups"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 25,
