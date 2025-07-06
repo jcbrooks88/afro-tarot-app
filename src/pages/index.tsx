@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Brooks House Tarot Explorer </title>
+        <title>House of Brooks Tarot Explorer </title>
         <meta
           name="description"
           content="Explore tarot cards by arcana, suit, and keyword."
@@ -17,10 +17,13 @@ const Home = () => {
       <main className="bg-[#F4F1EC] min-h-screen flex flex-col">
         <header className="bg-[#8c3030] shadow-md">
           <div className="w-full max-w-6xl mx-auto px-4 sm:px-6 py-6 text-center">
-            <h1 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white tracking-tight leading-snug">
-              Brooks House Tarot Explorer
+            <h1 className="text-3xl text-outline sm:text-4xl md:text-5xl font-extrabold text-white tracking-wider leading-snug">
+            House of Brooks
             </h1>
-            <p className="mt-2 text-sm sm:text-base text-gray-200 max-w-sm sm:max-w-md mx-auto px-2">
+            <h2 className="text-xl text-outline sm:text-2xl md:text-3xl text-white tracking-tight leading-snug">
+            Tarot Card Explorer
+            </h2>
+            <p className="mt-2 text-sm text-outline italic sm:text-base text-gray-200 max-w-sm sm:max-w-md mx-auto px-2">
               Browse and learn the meanings of tarot cards
             </p>
           </div>
