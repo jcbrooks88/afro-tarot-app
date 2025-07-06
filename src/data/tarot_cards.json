@@ -580,7 +580,9 @@
         "material",
         "pentacles"
       ],
-      "description": ""
+      "description": "The Ace of Pentacles symbolizes new beginnings in the material world—financial opportunities, career prospects, or tangible rewards. It represents the seed of prosperity being planted. This card encourages you to pursue your goals with practicality and focus, as abundance is within reach.",
+      "description_up": "Financial gain, new ventures, or career developments. A strong foundation is being laid, and with effort, long-term success can follow. It’s a time to take concrete steps toward building your future.",
+      "description_rev": "Missed opportunities, instability, or poor planning. You might be ignoring practical needs or facing delays in your financial or career goals. Be cautious of false promises or hasty investments."
     },
     {
       "id": 38,
@@ -595,7 +597,9 @@
         "material",
         "pentacles"
       ],
-      "description": ""
+      "description": "The Two of Pentacles reflects balance, adaptability, and juggling responsibilities. It often indicates the need to manage multiple priorities without losing focus. This card reminds you to remain flexible and maintain harmony in the face of change.",
+      "description_up": "Time management, adaptability, and resourcefulness. You are effectively balancing your work and personal life, even if things feel hectic. Flexibility and organization are key to maintaining this balance.",
+      "description_rev": "Overwhelm, disorganization, or financial imbalance. You may be struggling to keep up with demands, leading to stress and instability. Take time to reassess your priorities before burnout sets in."
     },
     {
       "id": 39,
@@ -610,7 +614,9 @@
         "material",
         "pentacles"
       ],
-      "description": ""
+      "description": "The Three of Pentacles represents teamwork, collaboration, and skilled effort. It suggests that your goals will benefit from working with others and recognizing each person’s contribution. This card emphasizes craftsmanship and the importance of planning.",
+      "description_up": "Collaboration, recognition, and shared goals. Your hard work is being noticed, and you’re making progress through cooperation. It’s a good time to align with others who bring complementary skills.",
+      "description_rev": "Miscommunication, lack of cooperation, or feeling undervalued. You may be working in isolation or dealing with unproductive group dynamics. Reevaluate the team's structure and clarify expectations."
     },
     {
       "id": 40,
@@ -625,7 +631,9 @@
         "material",
         "pentacles"
       ],
-      "description": ""
+      "description": " The Four of Pentacles signals a desire for control, security, and holding tightly to possessions or resources. It often highlights financial stability but can also point to fear of loss or change. While it’s good to be cautious, excessive rigidity can block growth.",
+      "description_up": "Financial security, saving, and control. You may be building a stable foundation and protecting your assets wisely. However, consider whether your attachment to stability is limiting other areas of your life.",
+      "description_rev": "Greed, insecurity, or release of control. You might be clinging too tightly to money or resisting necessary changes. This is a prompt to loosen your grip and allow more flow into your life."
     },
     {
       "id": 41,
@@ -640,7 +648,9 @@
         "material",
         "pentacles"
       ],
-      "description": ""
+      "description": "The Five of Pentacles represents hardship, financial loss, or feeling left out in the cold. It points to a period of struggle that may affect your confidence and sense of belonging. This card reminds you that help is available if you're willing to seek it.",
+      "description_up": "Financial difficulty, isolation, and low self-worth. You may be facing tough times, but support is closer than you think. Don’t let pride prevent you from reaching out.",
+      "description_rev": "Recovery, improvement, or renewed hope. You are beginning to find your way out of hardship. Keep your focus on the progress you're making, however small it may seem."
     },
     {
       "id": 42,
@@ -655,7 +665,9 @@
         "material",
         "pentacles"
       ],
-      "description": ""
+      "description": "The Six of Pentacles is about generosity, giving and receiving, and financial balance. It reflects the importance of both charity and humility, and can signify a time when you either offer help or are open to receiving it. The card suggests mutual support and fairness in relationships or finances.",
+      "description_up": "Generosity, charity, and fairness. You may find yourself in a position to help others or receive assistance from someone generous. Giving and receiving are both part of a healthy cycle—practice gratitude in either role.",
+      "description_rev": "One-sided charity, strings attached, or inequality. You may feel undervalued, exploited, or burdened by someone else's expectations. Examine your motives and ensure your exchanges are rooted in balance and respect."
     },
     {
       "id": 43,
@@ -670,7 +682,9 @@
         "material",
         "pentacles"
       ],
-      "description": ""
+      "description": "The Seven of Pentacles symbolizes patience, long-term vision, and steady progress. It suggests a pause to reflect on your efforts and consider future rewards. This card encourages persistence and reevaluation of goals to ensure sustainable success.",
+      "description_up": "Reflection, investment, and delayed gratification. Your hard work is beginning to show results, but the biggest rewards are still ahead. Take this time to assess what’s working and what needs adjustment.",
+      "description_rev": "Impatience, wasted effort, or lack of reward. You may be frustrated with slow progress or investing in something that’s not yielding results. Reconsider your strategy and make necessary changes."
     },
     {
       "id": 44,
@@ -685,7 +699,9 @@
         "material",
         "pentacles"
       ],
-      "description": ""
+      "description": "The Eight of Pentacles highlights dedication, skill development, and mastery through hard work. It represents learning, craftsmanship, and the pursuit of excellence. This card suggests progress through focused, consistent effort.",
+      "description_up": "Apprenticeship, diligence, and growth. You are fully committed to improving your skills and building something meaningful. Stay the course—your efforts will pay off over time.",
+      "description_rev": " Laziness, burnout, or lack of focus. You might be cutting corners or feeling disinterested in your work. Consider whether your heart is still in it and what needs to be reignited."
     },
     {
       "id": 45,
@@ -700,7 +716,9 @@
         "material",
         "pentacles"
       ],
-      "description": ""
+      "description": "The Nine of Pentacles symbolizes independence, self-sufficiency, and material comfort. It reflects success earned through discipline and wise choices. This card suggests enjoying the fruits of your labor and a moment of personal pride.",
+      "description_up": "Luxury, confidence, and independence. You’ve built a stable life through hard work, and now it's time to enjoy it. Appreciate the freedom and comfort you've earned.",
+      "description_rev": "Over-dependence, superficial success, or insecurity. You may be chasing material things without inner fulfillment. Reconnect with what truly brings you satisfaction beyond wealth."
     },
     {
       "id": 46,
@@ -715,7 +733,9 @@
         "material",
         "pentacles"
       ],
-      "description": ""
+      "description": "The Ten of Pentacles represents legacy, long-term wealth, and family stability. It indicates financial security built over time and the passing down of traditions or values. This card suggests a lasting foundation for future generations.",
+      "description_up": "Family wealth, tradition, and lasting success. Your work has created a strong, supportive network or legacy. This is a time to enjoy stability and plan for the long term.",
+      "description_rev": "Financial instability, family conflict, or short-sightedness. You may be experiencing disruption in long-term plans or family dynamics. Reassess your goals and seek harmony in your foundations."
     },
     {
       "id": 47,
@@ -730,7 +750,9 @@
         "material",
         "pentacles"
       ],
-      "description": ""
+      "description": "The Page of Pentacles is the student and the dreamer of the suit. It represents new opportunities in learning, work, or finances, and the energy of curiosity and ambition. This card suggests setting plans in motion and being open to growth.",
+      "description_up": "Study, opportunity, and grounded ambition. You’re in the early stages of a project or learning process, ready to plant the seeds of success. Stay curious and committed.",
+      "description_rev": "Procrastination, lack of direction, or missed chances. You may be unfocused or failing to act on potential. Refocus your energy and start building momentum."
     },
     {
       "id": 48,
@@ -745,7 +767,9 @@
         "material",
         "pentacles"
       ],
-      "description": ""
+      "description": "The Knight of Pentacles represents hard work, responsibility, and a methodical approach. He is reliable and steady, often symbolizing the grind required to reach a goal. This card encourages persistence and loyalty to your path.",
+      "description_up": "Routine, responsibility, and dedication. Your patience and effort are your greatest strengths now. Stay consistent and keep moving forward, even if progress is slow.",
+      "description_rev": "Stagnation, boredom, or workaholism. You might be stuck in a rut or overly fixated on control. Try to balance discipline with flexibility and inspiration."
     },
     {
       "id": 49,
@@ -760,7 +784,9 @@
         "material",
         "pentacles"
       ],
-      "description": ""
+      "description": "The Queen of Pentacles is nurturing, grounded, and resourceful. She blends the practical with the loving, creating a home filled with warmth and abundance. This card represents financial stability alongside care for others.",
+      "description_up": "Practicality, nurturing, and domestic harmony. You’re capable of providing for yourself and those around you. Focus on creating balance between work, home, and self-care.",
+      "description_rev": "Imbalance, neglect, or insecurity. You may be overextending yourself or losing sight of your needs. Reinvest energy in your own well-being and boundaries."
     },
     {
       "id": 50,
@@ -775,7 +801,9 @@
         "material",
         "pentacles"
       ],
-      "description": ""
+      "description": "The King of Pentacles stands for wealth, leadership, and mastery in the material world. He represents someone who has built success through discipline and smart choices. This card signals security and the power to support others.",
+      "description_up": "Financial success, leadership, and reliability. You’ve reached a point of stability where you can share your resources and guide others. Lead with wisdom and responsibility.",
+      "description_rev": "Greed, rigidity, or misuse of power. You may be clinging to status or resisting change. True leadership requires generosity, not control."
     },
     {
       "id": 51,
