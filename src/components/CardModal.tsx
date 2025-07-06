@@ -18,7 +18,6 @@ const CardModal: React.FC<CardModalProps> = ({ card, onClose }) => {
   const [isZoomed, setIsZoomed] = useState(false);
 
   useEffect(() => {
-    // Lock body scroll when zoomed
     document.body.style.overflow = isZoomed ? 'hidden' : '';
     return () => {
       document.body.style.overflow = '';
@@ -52,7 +51,7 @@ const CardModal: React.FC<CardModalProps> = ({ card, onClose }) => {
     <>
       {/* Main Modal */}
       <div className="fixed inset-0 z-50 bg-black bg-opacity-60 flex items-center justify-center px-4 sm:px-6 backdrop-blur-sm transition-all duration-300 ease-in-out">
-        <div className="relative bg-white rounded-3xl shadow-2xl p-4 sm:p-6 max-w-md sm:max-w-lg w-full overflow-y-auto max-h-[90vh] animate-fadeIn">
+        <div className="relative bg-white rounded-3xl shadow-2xl p-4 sm:p-6 max-w-md sm:max-w-lg w-full overflow-y-scroll max-h-[90vh] scrollbar-hide animate-fadeIn border-2 border-gray-300">
           {/* Close Button */}
           <button
             onClick={onClose}
@@ -63,9 +62,10 @@ const CardModal: React.FC<CardModalProps> = ({ card, onClose }) => {
           </button>
 
           {/* Content */}
-          <div className="flex flex-col items-center text-center">
+          <div className="flex flex-col items-center text-center space-y-5">
+            {/* Card Image Section */}
             <div
-              className="relative w-40 sm:w-60 aspect-[2/3] mb-5 cursor-zoom-in transition-transform hover:scale-105"
+              className="relative w-40 sm:w-60 aspect-[2/3] cursor-zoom-in transition-transform hover:scale-105 border-2 border-gray-300 rounded-xl p-1 bg-neutral-950 shadow-inner"
               onClick={handleImageClick}
               title="Click to zoom"
             >
@@ -74,28 +74,36 @@ const CardModal: React.FC<CardModalProps> = ({ card, onClose }) => {
                 alt={card.name}
                 fill
                 sizes="(max-width: 640px) 160px, 240px"
-                className="rounded-xl object-contain"
+                className="rounded-lg object-contain"
                 onError={(e) =>
                   ((e.currentTarget as HTMLImageElement).src = '/images/fallback.webp')
                 }
               />
             </div>
 
-            <h2 className="text-xl sm:text-3xl font-semibold text-gray-900 mb-1">{card.name}</h2>
-            <p className="text-sm text-gray-500 italic mb-3">{card.arcana} Arcana</p>
-
-            <div className="text-sm sm:text-base text-gray-600 mb-4 flex flex-wrap justify-center gap-2 px-2">
-              {card.keywords.map((word, index) => (
-                <span
-                  key={index}
-                  className="bg-gray-100 px-2 py-1 rounded-full text-xs sm:text-sm font-medium"
-                >
-                  {word}
-                </span>
-              ))}
+            {/* Title Section */}
+            <div className="w-full border border-gray-200 rounded-lg p-3 bg-gray-50 shadow-sm">
+              <h2 className="text-xl sm:text-3xl font-bold text-gray-900">{card.name}</h2>
+              <p className="text-sm text-gray-500 italic">{card.arcana} Arcana</p>
             </div>
 
-            <div className="text-sm sm:text-base text-gray-700 space-y-3 leading-relaxed text-left px-2">
+            {/* Keywords Section */}
+            <div className="w-full border border-gray-200 rounded-lg p-3 bg-white shadow-sm">
+              <h3 className="text-md font-semibold text-gray-700 mb-2">Keywords</h3>
+              <div className="flex flex-wrap justify-center gap-2">
+                {card.keywords.map((word, index) => (
+                  <span
+                    key={index}
+                    className="bg-gray-100 px-2 py-1 rounded-full text-xs sm:text-sm font-medium border border-gray-300 hover:shadow-md transition"
+                  >
+                    {word}
+                  </span>
+                ))}
+              </div>
+            </div>
+
+            {/* Descriptions Section */}
+            <div className="w-full border border-gray-200 rounded-lg p-4 bg-white shadow-sm text-left space-y-3">
               <p>
                 <span className="font-semibold">Description:</span>{' '}
                 {card.description}
