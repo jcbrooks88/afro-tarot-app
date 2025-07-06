@@ -376,7 +376,9 @@
         "emotions",
         "cups"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 26,
@@ -391,7 +393,9 @@
         "emotions",
         "cups"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 27,
@@ -406,7 +410,9 @@
         "emotions",
         "cups"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 28,
@@ -421,7 +427,9 @@
         "emotions",
         "cups"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 29,
@@ -436,7 +444,9 @@
         "emotions",
         "cups"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 30,
@@ -451,7 +461,9 @@
         "emotions",
         "cups"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 31,
@@ -466,7 +478,9 @@
         "emotions",
         "cups"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 32,
@@ -481,7 +495,9 @@
         "emotions",
         "cups"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 33,
@@ -496,7 +512,9 @@
         "emotions",
         "cups"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 34,
@@ -511,7 +529,9 @@
         "emotions",
         "cups"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 35,
@@ -526,7 +546,9 @@
         "emotions",
         "cups"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 36,
@@ -541,7 +563,9 @@
         "emotions",
         "cups"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 37,
@@ -766,7 +790,9 @@
         "intellect",
         "swords"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 52,
@@ -781,7 +807,9 @@
         "intellect",
         "swords"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 53,
@@ -796,7 +824,9 @@
         "intellect",
         "swords"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 54,
@@ -811,7 +841,9 @@
         "intellect",
         "swords"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 55,
@@ -826,7 +858,9 @@
         "intellect",
         "swords"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 56,
@@ -841,7 +875,9 @@
         "intellect",
         "swords"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 57,
@@ -856,7 +892,9 @@
         "intellect",
         "swords"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 58,
@@ -871,7 +909,9 @@
         "intellect",
         "swords"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 59,
@@ -886,7 +926,9 @@
         "intellect",
         "swords"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 60,
@@ -901,7 +943,9 @@
         "intellect",
         "swords"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 61,
@@ -916,7 +960,9 @@
         "intellect",
         "swords"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 62,
@@ -931,7 +977,9 @@
         "intellect",
         "swords"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 63,
@@ -946,7 +994,9 @@
         "intellect",
         "swords"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 64,
@@ -961,7 +1011,9 @@
         "intellect",
         "swords"
       ],
-      "description": ""
+      "description": "",
+      "description_up": "",
+      "description_rev": ""
     },
     {
       "id": 65,
@@ -976,7 +1028,9 @@
         "inspiration",
         "wands"
       ],
-      "description": ""
+      "description": "The Ace of Wands represents inspiration, new opportunities, and the spark of passion. It’s a card of action and enthusiasm, signaling the beginning of a creative venture or personal growth. This is a powerful moment to pursue your desires and plant new seeds.",
+      "description_up": "New beginnings, inspiration, and motivation. A creative fire is lit, urging you to act boldly. Say yes to what excites you.",
+      "description_rev": "Delays, lack of direction, or creative blocks. Your passion may be stifled or misdirected. Reconnect with your core desire before moving forward."
     },
     {
       "id": 66,
@@ -991,7 +1045,9 @@
         "inspiration",
         "wands"
       ],
-      "description": ""
+      "description": "The Two of Wands signifies planning, foresight, and exploring new possibilities. You’ve achieved something and now look toward expanding or embarking on a new path. It’s a time to weigh your options and envision your future.",
+      "description_up": "Vision, planning, and choices. Look beyond your current situation to what could be. Make decisions with boldness and clarity.",
+      "description_rev": "Fear of change, indecision, or lack of progress. You may be hesitating to move forward. Reflect on what’s holding you back from expansion."
     },
     {
       "id": 67,
@@ -1006,7 +1062,9 @@
         "inspiration",
         "wands"
       ],
-      "description": ""
+      "description": "The Three of Wands represents expansion, progress, and long-term vision. Your plans are in motion, and results are beginning to take shape. This card encourages confidence in your journey and looking ahead with optimism.",
+      "description_up": "Progress, foresight, and opportunities. Your efforts are paying off and the horizon is bright. Keep your sights set on long-term goals.",
+      "description_rev": "Obstacles, frustration, or stalled momentum. You may be struggling to see returns or unsure of your path. Adjust your plan or stay patient."
     },
     {
       "id": 68,
@@ -1021,7 +1079,9 @@
         "inspiration",
         "wands"
       ],
-      "description": ""
+      "description": "The Four of Wands symbolizes celebration, homecoming, and harmony. It often marks milestones like weddings, reunions, or achievements. This card is a joyful reminder of stability and shared happiness.",
+      "description_up": "Celebration, community, and stability. It’s time to enjoy the fruits of your labor with loved ones. Honor the moment and your growth.",
+      "description_rev": "Instability, conflict, or feeling left out. There may be tension around home or relationships. Focus on rebuilding a sense of harmony."
     },
     {
       "id": 69,
@@ -1036,7 +1096,9 @@
         "inspiration",
         "wands"
       ],
-      "description": ""
+      "description": "The Five of Wands suggests competition, conflict, or scattered energy. You may be facing challenges or differing opinions. While it can be chaotic, this energy can also fuel growth and assertiveness.",
+      "description_up": "Conflict, tension, and competition. You’re being tested or challenged—stay grounded. Use this as an opportunity to prove your resilience.",
+      "description_rev": "Avoidance of conflict or inner tension. You might be suppressing disagreement or unsure how to proceed. Seek clarity and resolve disputes constructively."
     },
     {
       "id": 70,
@@ -1051,7 +1113,9 @@
         "inspiration",
         "wands"
       ],
-      "description": ""
+      "description": "The Six of Wands is a card of victory, recognition, and success. After a period of effort, you’re receiving appreciation and support. It’s a time of public validation and shared pride.",
+      "description_up": "Victory, acknowledgment, and confidence. You’re being seen and celebrated for your achievements. Enjoy the spotlight and keep moving forward.",
+      "description_rev": "Self-doubt, lack of recognition, or pride issues. You may feel overlooked or unappreciated. Reflect on your motivations and stay humble."
     },
     {
       "id": 71,
@@ -1066,7 +1130,9 @@
         "inspiration",
         "wands"
       ],
-      "description": ""
+      "description": "The Seven of Wands signifies defense, perseverance, and standing your ground. You may be facing opposition or challenges, but you have the strength to hold firm. Protect your values and push forward with courage.",
+      "description_up": "Defense, persistence, and conviction. Stand tall and stay firm in your beliefs. Your position is worth protecting.",
+      "description_rev": "Overwhelm, giving up, or defensiveness. You might feel outnumbered or exhausted. Choose your battles and recharge when needed."
     },
     {
       "id": 72,
@@ -1081,7 +1147,9 @@
         "inspiration",
         "wands"
       ],
-      "description": ""
+      "description": "The Eight of Wands represents speed, momentum, and rapid change. Things are moving quickly and progress is accelerating. It’s a great time for action, communication, and moving forward.",
+      "description_up": "Swift progress, movement, and clarity. Events are unfolding rapidly—stay focused and responsive. Ride the wave of momentum.",
+      "description_rev": "Delays, miscommunication, or scattered efforts. Things may feel stuck or out of sync. Slow down and reassess your direction."
     },
     {
       "id": 73,
@@ -1096,7 +1164,9 @@
         "inspiration",
         "wands"
       ],
-      "description": ""
+      "description": "The Nine of Wands is about resilience, protection, and the final push before success. You may feel weary, but you are close to achieving your goal. Stay alert and maintain your boundaries.",
+      "description_up": "Perseverance, courage, and grit. You’re battle-tested and stronger than you think. Keep going—victory is near.",
+      "description_rev": "Fatigue, paranoia, or defensiveness. You may be too guarded or running on empty. Rest and regroup before continuing."
     },
     {
       "id": 74,
@@ -1111,7 +1181,9 @@
         "inspiration",
         "wands"
       ],
-      "description": ""
+      "description": "The Ten of Wands signals burden, stress, and carrying too much. You may be overwhelmed by responsibilities or expectations. It’s a sign to release what no longer serves you.",
+      "description_up": "Responsibility, hard work, and obligation. You’ve come far but the load is heavy. Ask for support and prioritize wisely.",
+      "description_rev": "Burnout, collapse, or avoidance. You’re at your limit. Lighten the load before it breaks you."
     },
     {
       "id": 75,
@@ -1126,7 +1198,9 @@
         "inspiration",
         "wands"
       ],
-      "description": ""
+      "description": "The Page of Wands brings curiosity, adventure, and a youthful spark of energy. It invites exploration and enthusiasm for what’s possible. This card encourages you to stay open to inspiration and discovery.",
+      "description_up": "Inspiration, exploration, and fresh ideas. Follow your excitement and don’t be afraid to try something new. This is a time of creative learning.",
+      "description_rev": "Impatience, immaturity, or lack of direction. You may be scattered or unsure how to act. Find your footing before rushing ahead."
     },
     {
       "id": 76,
@@ -1141,7 +1215,9 @@
         "inspiration",
         "wands"
       ],
-      "description": ""
+      "description": "The Knight of Wands represents bold action, ambition, and adventurous energy. He charges forward with passion and thrives on challenge. This card encourages confidence—but also warns against recklessness.",
+      "description_up": "Boldness, excitement, and drive. You’re fueled by passion and ready to act. Channel this energy wisely for maximum impact.",
+      "description_rev": "Impulsiveness, arrogance, or burnout. Acting too quickly can lead to mistakes. Temper enthusiasm with planning."
     },
     {
       "id": 77,
@@ -1156,7 +1232,9 @@
         "inspiration",
         "wands"
       ],
-      "description": ""
+      "description": "The Queen of Wands embodies confidence, charisma, and creative power. She is magnetic and assertive, uplifting others with her presence. This card invites you to own your personal power.",
+      "description_up": "Confidence, warmth, and leadership. Stand in your truth and inspire others. You’re in a position of radiant influence.",
+      "description_rev": "Insecurity, jealousy, or introversion. You may be doubting your gifts. Reclaim your self-worth and shine."
     },
     {
       "id": 78,
@@ -1171,6 +1249,8 @@
         "inspiration",
         "wands"
       ],
-      "description": ""
+      "description": "The King of Wands symbolizes visionary leadership, ambition, and confidence. He acts with authority and integrity, guided by long-term goals. This card encourages you to lead boldly and inspire others.",
+      "description_up": "Leadership, vision, and passion. You’re ready to take charge and create lasting impact. Lead with clarity and courage.",
+      "description_rev": "Domineering, ego-driven, or impulsive. You might be overstepping or lacking focus. Recalibrate your leadership style."
     }
   ]
