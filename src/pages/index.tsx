@@ -21,7 +21,7 @@ const Home = () => {
             House of Brooks
             </h1>
             <h2 className="text-xl text-outline sm:text-2xl md:text-3xl text-white tracking-tight leading-snug">
-            Tarot Card Explorer
+            🔮 Tarot Card Explorer 🔮
             </h2>
             <p className="mt-2 text-sm text-outline italic sm:text-base text-gray-200 max-w-sm sm:max-w-md mx-auto px-2">
               Browse and learn the meanings of tarot cards
