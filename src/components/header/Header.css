@@ -1,0 +1,139 @@
+/* Main Header */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-background);
+    padding: 16px 24px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.06);
+    transition: all 0.3s ease, transform 0.3s ease;
+    /*background-image: url('/images/stacked-zen.jpg');*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(6px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.8rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+  }
+  
+  /* When scrolled */
+  .header-scrolled {
+    padding: 8px 24px;
+    background-color: var(--color-accent);
+    opacity: .60;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  }
+  
+  /* Inner flex container */
+  .header-inner {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  /* Logo */
+  .header-logo {
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: 
+      transform 0.3s ease, 
+      border-radius 0.3s ease, 
+      height 0.3s ease, 
+      width 0.3s ease, 
+      opacity 0.3s ease;
+    cursor: pointer;
+    background-color: var(--color-background);
+
+    
+    /* Fade-in animation */
+    opacity: 0;
+    animation: fadeInLogo 1s ease forwards;
+  }
+  
+  /* Scrolled state */
+  .header-scrolled .header-logo {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    transform: scale(1.05);
+    opacity: 0.95;
+  }
+  
+  /* Hover effect */
+  .header-logo:hover {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+  
+  /* Keyframes for fade-in */
+  @keyframes fadeInLogo {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* Title + Nav container */
+  .header-content {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 16px;
+  }
+  
+  /* Site title */
+  .header-title {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--color-secondary);
+    margin-bottom: 4px;
+    letter-spacing: 0.5px;
+    line-height: 1.2;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+    transition: 
+      color 0.3s ease, 
+      font-size 0.3s ease, 
+      letter-spacing 0.3s ease, 
+      opacity 0.3s ease;
+  }
+  
+  /* Title size smaller on scroll */
+  .header-scrolled .header-title {
+    font-size: 1.5rem;
+    letter-spacing: 0.25px;
+    opacity: 0.9;
+  }
+  
+  /* Small hover on title */
+  .header-title:hover {
+    color: var(--color-accent);
+  }
+  
+  
+  /* New: Hide header on scroll down */
+  .header-hidden {
+    transform: translateY(-100%);
+  }
+  
+  /* New: Show header on scroll up */
+  .header-visible {
+    transform: translateY(0);
+  }
+  
+  /* Optional smaller subtitle in header */
+.header-subtitle {
+    font-size: 1rem;
+    color: var(--color-tertiary); 
+  }

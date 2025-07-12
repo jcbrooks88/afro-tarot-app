@@ -1,6 +1,5 @@
 import { mapMoonPhase } from "./mapMoonPhase";
 
-// utils/getMonthlyMoonPhases.ts
 const API_KEY = process.env.VISUAL_CROSSING_KEY;
 
 export const getMonthlyMoonPhases = async (month: number, year: number) => {

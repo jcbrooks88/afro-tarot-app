@@ -6,6 +6,7 @@ import { getMonthlyMoonPhases } from "../../utils/getMonthlyMoonPhases";
 import { moonMeanings } from "../../data/moonMeanings";
 
 const MonthlyMoonCalendar = () => {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const [moonData, setMoonData] = useState<any[]>([]);
   const today = new Date();
   const month = today.getMonth() + 1;

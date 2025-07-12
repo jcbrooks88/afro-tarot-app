@@ -1,4 +1,3 @@
-// utils/mapMoonPhase.ts
 export const mapMoonPhase = (value: number): string => {
     if (value === 0) return "New Moon";
     if (value < 0.25) return "Waxing Crescent";
