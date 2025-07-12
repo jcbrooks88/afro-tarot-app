@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import React from 'react';
-import CardLibrary from '../components/CardLibrary';
+import CardLibrary from '../components/Tarot/CardLibrary';
 
 const Home = () => {
   return (

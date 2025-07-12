@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import CardItem from './CardItem';
 import CardModal from './CardModal';
 import FilterToggle from './FilterToggle';
-import rawData from '../data/tarot_cards.json';
+import rawData from '../../data/tarot_cards.json';
 import { TarotCard } from '@/types/TarotCard';
 
 type FilterOption = 'All' | 'Major' | 'Minor' | 'Cups' | 'Pentacles' | 'Swords' | 'Wands';
