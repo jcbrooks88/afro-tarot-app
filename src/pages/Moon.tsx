@@ -1,14 +1,15 @@
 import MonthlyMoonCalendar from "@/components/moon/Calendar";
-import React from 'react';
 
-const MoonPage: React.FC = () => {
+export default function MoonCalendarPage() {
   return (
-    <div className="max-w-4xl mx-auto py-8">
-      <h1 className="text-2xl font-bold mb-4">🌙 Moon Phase Calendar</h1>
+    <main className="p-6 max-w-6xl mx-auto">
+      <h1 className="text-3xl font-bold mb-4">Moon Calendar</h1>
+      <p className="mb-6 text-gray-700 dark:text-gray-300">
+        Align your tarot practice with lunar phases.
+      </p>
       <MonthlyMoonCalendar />
-    </div>
+    </main>
   );
-};
-export default MoonPage;
+}
 
 

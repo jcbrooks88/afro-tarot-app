@@ -6,7 +6,7 @@ const NavBar: React.FC = () => {
     <nav className="navbar" aria-label="Main navigation">
       <ul className="navbar-list">
         <li className="navbar-item">
-          <Link href="/" className="navbar-link">
+          <Link href="/index" className="navbar-link">
             Home
           </Link>
         </li>
