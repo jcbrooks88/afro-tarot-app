@@ -1,12 +1,9 @@
 import React from 'react';
 import Image from 'next/image';
-import Footer from '@/components/footer/Footer';
-import Header from '@/components/header/Header';
 
 const HomePage: React.FC = () => {
   return (
      <>
-     <Header />
      <div className="home">
       <main className="home-container">
         <div className="home-text">
@@ -25,7 +22,6 @@ const HomePage: React.FC = () => {
         </div>
       </main>
     </div>
-    <Footer /> 
     </>
   );
 };

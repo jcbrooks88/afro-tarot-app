@@ -11,20 +11,39 @@ type MoonDay = {
 export default function MonthlyMoonCalendar() {
   const [moonData, setMoonData] = useState<MoonDay[]>([]);
   const [error, setError] = useState('');
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const fetchMoon = async () => {
+    const fetchMoon = async (latLong: string) => {
       try {
-        const res = await fetch('/api/moon/month');
+        const res = await fetch(`/api/moon/month?location=${latLong}`);
         const data = await res.json();
         setMoonData(data.moonData);
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       } catch (err) {
-        setError('Could not load moon data');
+        setError('Could not load moon data.');
+      } finally {
+        setLoading(false);
       }
     };
-    fetchMoon();
+
+    if (navigator.geolocation) {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          const coords = `${position.coords.latitude},${position.coords.longitude}`;
+          fetchMoon(coords);
+        },
+        () => {
+          // If location is denied or fails, fallback to New York
+          fetchMoon('New York,NY');
+        }
+      );
+    } else {
+      fetchMoon('New York,NY');
+    }
   }, []);
 
+  if (loading) return <p className="text-gray-600">Loading moon data...</p>;
   if (error) return <p className="text-red-600">{error}</p>;
 
   return (
