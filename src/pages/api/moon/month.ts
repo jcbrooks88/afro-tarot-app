@@ -1,5 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { format, lastDayOfMonth } from 'date-fns';
+import { mapMoonPhase } from '@/utils/mapMoonPhase';
 
 const API_KEY = process.env.VISUAL_CROSSING_API_KEY;
 const BASE_URL = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline';
@@ -7,7 +8,7 @@ const BASE_URL = 'https://weather.visualcrossing.com/VisualCrossingWebServices/r
 type MoonApiResponse = {
   days: {
     datetime: string;
-    moonphasephase: string;
+    moonphase: number;
   }[];
 };
 
@@ -38,7 +39,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     return res.status(200).json({ moonData: cached.data });
   }
 
-  const url = `${BASE_URL}/${location}/${start}/${end}?key=${API_KEY}&elements=datetime,moonphase,moonphasephase&unitGroup=us`;
+  const url = `${BASE_URL}/${location}/${start}/${end}?key=${API_KEY}&elements=datetime,moonphase&unitGroup=us`;
 
   try {
     const response = await fetch(url);
@@ -46,7 +47,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
 
     const moonData = rawData.days.map((day) => ({
       date: day.datetime,
-      phase: day.moonphasephase,
+      phase: mapMoonPhase (day.moonphase),
     }));
 
     cache[cacheKey] = {
@@ -55,6 +56,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
     };
 
     res.status(200).json({ moonData });
+    
   } catch (err) {
     console.error('Moon API Error:', err);
     res.status(500).json({ error: 'Failed to fetch moon data' });

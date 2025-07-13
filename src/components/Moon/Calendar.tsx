@@ -19,6 +19,7 @@ export default function MonthlyMoonCalendar() {
         const res = await fetch(`/api/moon/month?location=${latLong}`);
         const data = await res.json();
         setMoonData(data.moonData);
+        console.log("Fetched moon data:", data.moonData);
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       } catch (err) {
         setError('Could not load moon data.');
