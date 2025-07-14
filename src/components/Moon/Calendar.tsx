@@ -20,8 +20,11 @@ export default function MonthlyMoonCalendar() {
         const data = await res.json();
         setMoonData(data.moonData);
         console.log("Fetched moon data:", data.moonData);
-      } catch (err) {
-        setError('Could not load moon data.');
+      } catch (err: unknown) {
+        if (err instanceof Error) {
+          console.error(err.message);
+        }
+        setError('Could not load moon data.');      
       } finally {
         setLoading(false);
       }
