@@ -9,7 +9,7 @@ type MoonDay = {
   phase: string;
 };
 
-export default function MonthlyMoonCalendar() {
+const MonthlyMoonCalendar = () => {
   const [moonData, setMoonData] = useState<MoonDay[]>([]);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(true);
@@ -133,3 +133,4 @@ export default function MonthlyMoonCalendar() {
     </section>
   );
 }
+export default MonthlyMoonCalendar;
