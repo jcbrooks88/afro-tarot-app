@@ -1,0 +1,40 @@
+
+.navbar-list {
+    display: none;
+    flex-direction: column;
+    gap: 1.5rem;
+    background-color: #1f2937;
+    padding: 1.5rem;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    width: 100%;
+    z-index: 40;
+  }
+  
+  .navbar-list.show {
+    display: flex;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-list {
+      display: flex;
+      flex-direction: row;
+      position: static;
+      background-color: transparent;
+      padding: 0;
+      gap: 2rem;
+    }
+  }
+  
+  .navbar-link {
+    color: white;
+    font-size: 1.125rem;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  .navbar-link:hover {
+    color: #a5b4fc; /* Tailwind's indigo-300 */
+  }
+  

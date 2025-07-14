@@ -5,13 +5,13 @@ import '../styles/globals.css';
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className="app-container">
+    <div className="flex flex-col min-h-screen bg-background text-foreground font-sans">
       <Header />
-      <div className="pt-32 px-4" style={{ flex: '1 0 auto' }}>
-        <main className="main-content">
-          <Component {...pageProps} />
-        </main>
-      </div>
+      {/* Push content down to account for fixed header */}
+      <main className="flex-1 px-4 pt-20 md:pt-24 max-w-7xl mx-auto w-full"
+      style={{ paddingTop: 'var(--header-offset)' }}>
+        <Component {...pageProps} />
+      </main>
       <Footer />
     </div>
   );

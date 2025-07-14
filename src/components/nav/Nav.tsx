@@ -1,25 +1,39 @@
-import React from 'react';
 import Link from 'next/link';
 
-const NavBar: React.FC = () => {
+interface NavBarProps {
+  isMobileOpen?: boolean;
+  toggleMobileMenu?: () => void;
+}
+
+const NavBar: React.FC<NavBarProps> = ({ isMobileOpen, toggleMobileMenu }) => {
+  const navItems = [
+    { label: 'Home', href: '/' },
+    { label: 'Tarot Cards', href: '/tarot' },
+    { label: 'Moon Calendar', href: '/moon' },
+  ];
+
   return (
-    <nav className="navbar" aria-label="Main navigation">
-      <ul className="navbar-list">
-        <li className="navbar-item">
-          <Link href="/" className="navbar-link">
-            Home
-          </Link>
-        </li>
-        <li className="navbar-item">
-          <Link href="/tarot" className="navbar-link">
-            Tarot Cards
-          </Link>
-        </li>
-        <li className="navbar-item">
-          <Link href="/moon" className="navbar-link">
-            Moon Calendar
-          </Link>
-        </li>
+    <nav aria-label="Main navigation">
+      <ul
+        className={`
+          flex flex-col md:flex-row gap-6 md:gap-8 items-center justify-center
+          absolute md:static w-full md:w-auto left-0 top-16 md:top-auto
+          z-40 bg-gray-900 md:bg-transparent p-6 md:p-0
+          transition-all duration-300 ease-in-out
+          ${isMobileOpen ? 'block' : 'hidden md:flex'}
+        `}
+      >
+        {navItems.map(({ label, href }) => (
+          <li key={href}>
+            <Link
+              href={href}
+              className="text-white hover:text-indigo-300 text-lg font-medium"
+              onClick={toggleMobileMenu}
+            >
+              {label}
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   );
