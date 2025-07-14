@@ -1,4 +1,4 @@
-import MonthlyMoonCalendar from "@/components/moon/Calendar";
+import MonthlyMoonCalendar from "../components/moon/Calendar";
 
 export default function MoonCalendarPage() {
   return (
