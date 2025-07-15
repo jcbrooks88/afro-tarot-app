@@ -64,7 +64,7 @@ const Header = () => {
               className="text-gray-100 text-2xl sm:text-xl md:text-3xl font-semibold tracking-wide whitespace-nowrap"
               style={{ textShadow: '0 0 6px rgba(255, 255, 255, 0.25)' }}
             >
-              The Mystical House of Brooks
+              The Mystical House
             </h1>
 
             {/* Toggle Button */}
