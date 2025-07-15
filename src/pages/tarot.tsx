@@ -15,7 +15,7 @@ const TarotPage: React.FC = () => {
           Explore the Tarot Library
         </h1>
         <p className="text-gray-700 dark:text-gray-300 max-w-2xl mx-auto">
-          Dive into each card's symbolism, suit, arcana, and upright/reversed meanings.
+          Dive into each card&apos;s symbolism, suit, arcana, and upright/reversed meanings.
         </p>
       </motion.div>
 
