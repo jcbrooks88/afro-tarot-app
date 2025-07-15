@@ -8,7 +8,7 @@ export default function App({ Component, pageProps }: AppProps) {
     <div className="flex flex-col min-h-screen bg-background text-foreground font-sans">
       <Header />
       {/* Push content down to account for fixed header */}
-      <main className="flex-1 px-4 pt-20 md:pt-24 max-w-7xl mx-auto w-full"
+      <main className="flex-1 px-4 py-8 pt-20 md:pt-24 max-w-7xl mx-auto w-full"
       style={{ paddingTop: 'var(--header-offset)' }}>
         <Component {...pageProps} />
       </main>

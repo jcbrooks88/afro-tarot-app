@@ -1,14 +1,20 @@
 import { useState, useEffect, useRef } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, ChevronDown } from 'lucide-react';
+import { useRouter } from 'next/router';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [showHeader, setShowHeader] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isDropdownOpen, setIsDropdownOpen] = useState(false);
   const headerRef = useRef<HTMLElement>(null);
+  const router = useRouter();
+
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+  const toggleDropdown = () => setIsDropdownOpen(!isDropdownOpen);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -22,20 +28,13 @@ const Header = () => {
   }, [lastScrollY]);
 
   useEffect(() => {
-    const setRootOffset = () => {
-      if (headerRef.current) {
-        document.documentElement.style.setProperty(
-          '--header-offset',
-          `${headerRef.current.offsetHeight}px`
-        );
-      }
-    };
-    setRootOffset();
-    window.addEventListener('resize', setRootOffset);
-    return () => window.removeEventListener('resize', setRootOffset);
-  }, [isMobileMenuOpen]);
-
-  const toggleMobileMenu = () => setIsMobileMenuOpen(!isMobileMenuOpen);
+    if (headerRef.current) {
+      document.documentElement.style.setProperty(
+        '--header-offset',
+        `${headerRef.current.offsetHeight}px`
+      );
+    }
+  }, []);
 
   const navItems = [
     { label: 'Home', href: '/' },
@@ -53,43 +52,71 @@ const Header = () => {
 
       <header
         ref={headerRef}
-        className={`fixed top-0 left-0 w-full z-50 transition-transform duration-300 ease-in-out
-          ${isScrolled ? 'bg-gray-900 shadow-lg' : 'bg-transparent'}
-          ${showHeader ? 'translate-y-0' : '-translate-y-full'}`}
+        className={`
+          fixed top-0 left-0 w-full z-50 transition-all duration-300 ease-in-out backdrop-blur-md
+          ${isScrolled ? 'bg-burgundy shadow-xl' : 'bg-burgundyLight'}
+          ${showHeader ? 'translate-y-0' : '-translate-y-full'}
+        `}
       >
-        <div className="w-full px-4 md:px-6">
-          <div className="max-w-7xl mx-auto">
-            <div className="flex items-center justify-between py-4 md:py-6">
-              <h1 className="text-white text-2xl md:text-3xl font-bold tracking-wide whitespace-nowrap">
-                The Mystical House of Brooks
-              </h1>
+        <div className="w-full px-4 sm:px-6 lg:px-10">
+          <div className="max-w-7xl mx-auto flex items-center justify-between py-4 md:py-6">
+            <h1
+              className="text-gray-100 text-2xl md:text-3xl font-semibold tracking-wide whitespace-nowrap"
+              style={{ textShadow: '0 0 6px rgba(255, 255, 255, 0.25)' }}
+            >
+              The Mystical House of Brooks
+            </h1>
 
+            {/* Toggle Button */}
+            <button
+              className="md:hidden text-gray-300 focus:outline-none"
+              onClick={toggleMenu}
+              aria-label="Toggle navigation menu"
+            >
+              {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
+            </button>
+
+            {/* Dropdown Toggle on Desktop */}
+            <div className="hidden md:flex relative">
               <button
-                className="px-4 py-2 md:hidden text-white"
-                onClick={toggleMobileMenu}
-                aria-label="Toggle navigation menu"
+                className="text-gray-100 flex items-center gap-1 hover:text-gray-600 transition"
+                onClick={toggleDropdown}
               >
-                {isMobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+                Menu <ChevronDown size={20} />
               </button>
-            </div>
 
-            {/* NavBar */}
-            <nav aria-label="Main navigation">
-              <ul
-                className={`
-                  flex flex-col md:flex-row gap-6 md:gap-8 items-center justify-center
-                  absolute md:static w-full md:w-auto left-0 top-16 md:top-auto
-                  z-40 bg-gray-900 md:bg-transparent p-6 md:p-0
-                  transition-all duration-300 ease-in-out
-                  ${isMobileMenuOpen ? 'block' : 'hidden md:flex'}
-                `}
-              >
+              {isDropdownOpen && (
+                <ul className="absolute top-full right-0 mt-2 bg-gray-50 rounded-md shadow-lg py-2 w-48 z-40">
+                  {navItems.map(({ label, href }) => (
+                    <li key={href}>
+                      <Link
+                        href={href}
+                        onClick={() => setIsDropdownOpen(false)}
+                        className={`block px-4 py-2 text-gray-600 hover:bg-gray-200 transition
+                          ${router.pathname === href ? 'text-gray-650 font-semibold' : ''}
+                        `}
+                      >
+                        {label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          </div>
+
+          {/* Mobile Menu */}
+          {isMenuOpen && (
+            <nav className="md:hidden">
+              <ul className="flex flex-col gap-4 items-center bg-burgundy px-4 py-6 rounded-b-xl">
                 {navItems.map(({ label, href }) => (
                   <li key={href}>
                     <Link
                       href={href}
-                      className="text-white hover:text-indigo-300 text-lg font-medium"
-                      onClick={toggleMobileMenu}
+                      onClick={toggleMenu}
+                      className={`text-white text-lg hover:text-indigo-300 transition
+                        ${router.pathname === href ? 'text-indigo-300 font-semibold' : ''}
+                      `}
                     >
                       {label}
                     </Link>
@@ -97,8 +124,7 @@ const Header = () => {
                 ))}
               </ul>
             </nav>
-            {/* End NavBar */}
-          </div>
+          )}
         </div>
       </header>
     </>

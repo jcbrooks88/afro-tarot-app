@@ -20,7 +20,7 @@ const CardItem: React.FC<CardItemProps> = ({ card, onPress }) => {
   return (
     <div
       onClick={onPress}
-      className="flex flex-col items-center justify-start p-3 sm:p-4 rounded-2xl bg-white shadow-md cursor-pointer hover:shadow-xl transition-shadow"
+      className="flex flex-col items-center justify-start p-3 sm:p-4 rounded-2xl bg-gray-50 shadow-md cursor-pointer hover:shadow-xl transition-shadow"
     >
       <div className="relative w-32 sm:w-44 aspect-[2/3] mb-3 sm:mb-4">
         <Image
@@ -28,14 +28,14 @@ const CardItem: React.FC<CardItemProps> = ({ card, onPress }) => {
           alt={card.name}
           fill
           sizes="(max-width: 640px) 128px, 176px"
-          className="object-cover rounded-lg"
+          className="object-contain rounded-lg"
           onError={(e) =>
             ((e.currentTarget as HTMLImageElement).src = '/images/fallback.webp')
           }
         />
       </div>
 
-      <h3 className="text-sm sm:text-base font-semibold text-gray-800 text-center line-clamp-2">
+      <h3 className="text-sm sm:text-base font-semibold text-burgundy text-center line-clamp-2">
         {card.name}
       </h3>
 

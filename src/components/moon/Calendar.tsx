@@ -51,7 +51,7 @@ const MonthlyMoonCalendar = () => {
   };
 
   if (loading) {
-    return <p className="text-center text-gray-500 dark:text-gray-300 animate-pulse">Loading moon data...</p>;
+    return <p className="text-center text-gray-500 animate-pulse">Loading moon data...</p>;
   }
 
   if (error) {
@@ -59,18 +59,14 @@ const MonthlyMoonCalendar = () => {
   }
 
   return (
-    <section className="max-w-6xl mx-auto px-4 py-8">
-      <h2 className="text-3xl font-bold text-center mb-6 text-gray-800 dark:text-gray-100">
-        Monthly Moon Calendar
-      </h2>
-
+    <section className="min-h-screen bg-[#F4F1EC] mx-auto px-4 py-2">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
         {moonData.map((day) => (
           <div
             key={day.date}
-            className="rounded-2xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 p-4 shadow-sm transition-transform hover:scale-[1.015] hover:shadow-md"
+            className="rounded-2xl border border-gray-300 bg-gray-50 p-4 shadow-sm transition-transform hover:scale-[1.015] hover:shadow-md"
           >
-            <p className="text-lg font-semibold text-gray-800 dark:text-gray-100">
+            <p className="text-lg font-semibold text-gray-800 ">
               {new Date(day.date).toLocaleDateString(undefined, {
                 weekday: 'short',
                 month: 'short',
@@ -91,10 +87,10 @@ const MonthlyMoonCalendar = () => {
               />
             </div>
 
-            <p className="text-indigo-600 dark:text-indigo-400 font-medium text-center">
+            <p className="text-burgundy font-semibold text-center">
               {day.phase}
             </p>
-            <p className="text-sm text-gray-600 dark:text-gray-300 mt-2">
+            <p className="text-sm text-gray-600 mt-2">
               {moonMeanings[day.phase] ?? 'No interpretation available.'}
             </p>
           </div>

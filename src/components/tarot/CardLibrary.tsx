@@ -60,7 +60,7 @@ const CardLibrary = () => {
   };
 
   return (
-    <div className="min-h-screen bg-[#F4F1EC] px-4 sm:px-6 py-6">
+    <div className="min-h-screen bg-[#F4F1EC] rounded-2xl border border-gray-200 px-10 py-12 shadow-md mx-auto">
       {/* Toggle Filters on Mobile */}
       <div className="sm:hidden flex justify-end mb-2">
         <button
