@@ -1,5 +1,3 @@
-'use client';
-
 import { useEffect, useState } from 'react';
 import { moonMeanings } from '@/data/moonMeanings';
 import Image from 'next/image';
