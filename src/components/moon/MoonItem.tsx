@@ -21,7 +21,7 @@ const MoonItem: React.FC<MoonItemProps> = ({ card, onPress }) => {
   return (
     <div
       onClick={onPress}
-      className="flex flex-col items-center justify-start p-4 rounded-2xl bg-black shadow-md hover:shadow-xl transition-shadow cursor-pointer max-w-xs mx-auto"
+      className="flex flex-col items-center justify-start p-4 rounded-2xl shadow-md hover:shadow-xl transition-shadow cursor-pointer max-w-xs mx-auto"
     >
       <div className="relative w-40 sm:w-48 aspect-[2/3] mb-4">
         <Image
@@ -29,7 +29,7 @@ const MoonItem: React.FC<MoonItemProps> = ({ card, onPress }) => {
           alt={card.name}
           fill
           sizes="(max-width: 640px) 160px, 192px"
-          className="object-cover rounded-xl border border-gray-200 dark:border-gray-700"
+          className="object-cover rounded-xl border border-gray-200"
           onError={(e) =>
             ((e.currentTarget as HTMLImageElement).src = '/images/fallback.webp')
           }
