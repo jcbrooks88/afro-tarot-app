@@ -21,7 +21,7 @@ const MoonItem: React.FC<MoonItemProps> = ({ card, onPress }) => {
   return (
     <div
       onClick={onPress}
-      className="flex flex-col items-center justify-start p-4 rounded-2xl bg-white dark:bg-gray-900 shadow-md hover:shadow-xl transition-shadow cursor-pointer max-w-xs mx-auto"
+      className="flex flex-col items-center justify-start p-4 rounded-2xl bg-black shadow-md hover:shadow-xl transition-shadow cursor-pointer max-w-xs mx-auto"
     >
       <div className="relative w-40 sm:w-48 aspect-[2/3] mb-4">
         <Image
