@@ -61,7 +61,7 @@ const Header = () => {
         <div className="w-full px-4 sm:px-6 lg:px-10">
           <div className="max-w-7xl mx-auto flex items-center justify-between py-4 md:py-6">
             <h1
-              className="text-gray-100 text-2xl md:text-3xl font-semibold tracking-wide whitespace-nowrap"
+              className="text-gray-100 text-2xl sm:text-xl md:text-3xl font-semibold tracking-wide whitespace-nowrap"
               style={{ textShadow: '0 0 6px rgba(255, 255, 255, 0.25)' }}
             >
               The Mystical House of Brooks
