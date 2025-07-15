@@ -1,5 +1,5 @@
 import React from 'react';
-import CardLibrary from '../components/Tarot/CardLibrary';
+import CardLibrary from '../components/tarot/CardLibrary';
 
 const TarotPage: React.FC = () => {
   return (
