@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { moonMeanings } from '@/data/moonMeanings';
 import Image from 'next/image';
+import { motion, AnimatePresence } from 'framer-motion';
 
 type MoonDay = {
   date: string;
@@ -59,14 +60,18 @@ const MonthlyMoonCalendar = () => {
   }
 
   return (
-    <section className="min-h-screen bg-[#F4F1EC] mx-auto px-4 py-2">
+    <section className="min-h-screen px-4 py-6 sm:py-8 bg-[#F4F1EC]">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {moonData.map((day) => (
-          <div
+        {moonData.map((day, index) => (
+          <motion.div
             key={day.date}
-            className="rounded-2xl border border-gray-300 bg-gray-50 p-4 shadow-sm transition-transform hover:scale-[1.015] hover:shadow-md"
+            className="rounded-2xl border border-gray-300 bg-white p-4 shadow-sm transition hover:shadow-lg"
+            whileHover={{ scale: 1.02 }}
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ delay: index * 0.03 }}
           >
-            <p className="text-lg font-semibold text-gray-800 ">
+            <p className="text-lg font-semibold text-gray-800 text-center">
               {new Date(day.date).toLocaleDateString(undefined, {
                 weekday: 'short',
                 month: 'short',
@@ -82,49 +87,56 @@ const MonthlyMoonCalendar = () => {
                 src={getImageSrc(day.phase)}
                 alt={`${day.phase} illustration`}
                 width={150}
-                height={300}
-                className="sm:w-24 sm:h-24 md:w-28 md:h-28 mx-auto object-contain"
+                height={150}
+                className="w-24 h-24 md:w-28 md:h-28 mx-auto object-contain"
               />
             </div>
 
-            <p className="text-burgundy font-semibold text-center">
-              {day.phase}
-            </p>
-            <p className="text-sm text-gray-600 mt-2">
+            <p className="text-burgundy font-semibold text-center">{day.phase}</p>
+            <p className="text-sm text-gray-600 mt-2 text-center">
               {moonMeanings[day.phase] ?? 'No interpretation available.'}
             </p>
-          </div>
+          </motion.div>
         ))}
       </div>
 
-      {selectedImage && (
-  <div
-    className="fixed inset-0 z-50 bg-black bg-opacity-80 flex items-center justify-center p-4"
-    onClick={() => setSelectedImage(null)}
-  >
-    <div
-      className="relative bg-white dark:bg-gray-900 rounded-xl max-w-full max-h-[90vh] w-auto"
-      onClick={(e) => e.stopPropagation()} // prevent modal from closing when clicking inside image
-    >
-      <button
-        onClick={() => setSelectedImage(null)}
-        className="absolute top-2 right-2 text-white bg-black bg-opacity-60 rounded-full p-1 hover:bg-opacity-90 transition"
-        aria-label="Close"
-      >
-        ✕
-      </button>
-      <Image
-        src={selectedImage}
-        alt="Enlarged moon phase"
-        width={500}
-        height={500}
-        className="w-full h-auto max-w-[90vw] max-h-[80vh] bg-black object-contain rounded-xl"
-      />
-    </div>
-  </div>
-)}
-
+      <AnimatePresence>
+        {selectedImage && (
+          <motion.div
+            className="fixed inset-0 z-50 bg-black bg-opacity-80 flex items-center justify-center p-4"
+            onClick={() => setSelectedImage(null)}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+          >
+            <motion.div
+              className="relative bg-white dark:bg-gray-900 rounded-xl max-w-full max-h-[90vh] w-auto"
+              onClick={(e) => e.stopPropagation()}
+              initial={{ scale: 0.95 }}
+              animate={{ scale: 1 }}
+              exit={{ scale: 0.9 }}
+              transition={{ duration: 0.3 }}
+            >
+              <button
+                onClick={() => setSelectedImage(null)}
+                className="absolute top-2 right-2 text-white bg-black bg-opacity-60 rounded-full p-1 hover:bg-opacity-90 transition"
+                aria-label="Close"
+              >
+                ✕
+              </button>
+              <Image
+                src={selectedImage}
+                alt="Enlarged moon phase"
+                width={500}
+                height={500}
+                className="w-full h-auto max-w-[90vw] max-h-[80vh] object-contain rounded-xl"
+              />
+            </motion.div>
+          </motion.div>
+        )}
+      </AnimatePresence>
     </section>
   );
-}
+};
+
 export default MonthlyMoonCalendar;
