@@ -1,17 +1,20 @@
-// src/utils/getMonthlyMoonPhases.ts
 
+import { format, lastDayOfMonth } from 'date-fns';
 import { mapMoonPhase } from './mapMoonPhase';
 
 const API_KEY = process.env.VISUAL_CROSSING_API_KEY;
 
-export const getMonthlyMoonPhases = async (month: number, year: number) => {
+export const getMonthlyMoonPhases = async (
+  month: number,
+  year: number,
+  location = 'Raleigh'
+) => {
   if (!API_KEY) {
     throw new Error('Missing Visual Crossing API key.');
   }
 
-  const start = `${year}-${String(month).padStart(2, '0')}-01`;
-  const end = `${year}-${String(month).padStart(2, '0')}-31`;
-  const location = 'Raleigh'; // or make this dynamic later
+  const start = format(new Date(year, month - 1, 1), 'yyyy-MM-dd');
+  const end = format(lastDayOfMonth(new Date(year, month - 1)), 'yyyy-MM-dd');
 
   const url = `https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/${location}/${start}/${end}?unitGroup=us&elements=datetime,moonphase&key=${API_KEY}`;
 
@@ -31,12 +34,7 @@ export const getMonthlyMoonPhases = async (month: number, year: number) => {
       throw new Error('Invalid moon data structure');
     }
 
-    type MoonDay = {
-      datetime: string;
-      moonphase: number;
-    };
-
-    return data.days.map((day: MoonDay) => ({
+    return data.days.map((day: { datetime: string; moonphase: number }) => ({
       date: day.datetime,
       moonPhaseValue: day.moonphase,
       moonPhase: mapMoonPhase(day.moonphase),

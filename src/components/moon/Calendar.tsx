@@ -3,10 +3,7 @@ import { moonMeanings } from '@/data/moonMeanings';
 import Image from 'next/image';
 import { motion, AnimatePresence } from 'framer-motion';
 
-type MoonDay = {
-  date: string;
-  phase: string;
-};
+type MoonDay = { date: string; phase: string };
 
 const MonthlyMoonCalendar = () => {
   const [moonData, setMoonData] = useState<MoonDay[]>([]);
@@ -18,34 +15,35 @@ const MonthlyMoonCalendar = () => {
   const baseFolder = process.env.NEXT_PUBLIC_CLOUDINARY_MOON_FOLDER;
 
   useEffect(() => {
-    const fetchMoon = async (latLong: string) => {
+    const fetchMoon = async (loc: string) => {
       try {
-        const res = await fetch(`/api/moon/month?location=${latLong}`);
+        const res = await fetch(`/api/moon/month?location=${loc}`);
+
+        if (res.status === 429) {
+          console.warn('Rate limit hit (429). Using fallback data.');
+          setError('Daily limit reached. Try again later.');
+          setLoading(false);
+          return;
+        }
 
         if (!res.ok) {
-          const errorText = await res.text();
-          console.error(`Moon API Error (${res.status}):`, errorText);
-          setError('Moon data could not be fetched. Please try again later.');
+          const text = await res.text();
+          console.error(`Moon API Error (${res.status}):`, text);
+          setError('Could not fetch moon data. ' + text);
+          setLoading(false);
           return;
         }
 
         const data = await res.json();
-
-        if (!data || !Array.isArray(data.moonData)) {
-          console.error('Unexpected moon data format:', data);
+        if (!data?.moonData || !Array.isArray(data.moonData)) {
+          console.error('Unexpected moon data:', data);
           setError('Invalid moon data format.');
-          return;
-        }
-
-        setMoonData(data.moonData);
-        console.log('Fetched moon data:', data.moonData);
-      } catch (err: unknown) {
-        if (err instanceof Error) {
-          console.error('Fetch error:', err.message);
         } else {
-          console.error('Unknown fetch error:', err);
+          setMoonData(data.moonData);
         }
-        setError('Could not load moon data.');
+      } catch (err: unknown) {
+        console.error('Fetch error:', err);
+        setError('Failed to load moon data.');
       } finally {
         setLoading(false);
       }
@@ -53,68 +51,54 @@ const MonthlyMoonCalendar = () => {
 
     if (navigator.geolocation) {
       navigator.geolocation.getCurrentPosition(
-        (position) => {
-          const coords = `${position.coords.latitude},${position.coords.longitude}`;
-          fetchMoon(coords);
+        ({ coords }) => {
+          const loc = `${coords.latitude.toFixed(2)},${coords.longitude.toFixed(2)}`;
+          fetchMoon(loc);
         },
-        () => {
-          fetchMoon('New York,NY');
-        }
+        () => fetchMoon('Raleigh,NC')
       );
     } else {
-      fetchMoon('New York,NY');
+      fetchMoon('Raleigh,NC');
     }
   }, []);
 
   const getImageSrc = (phase: string) => {
-    const fileName = phase.toLowerCase().replace(/\s+/g, '-');
-    return `https://res.cloudinary.com/${cloudName}/image/upload/${baseFolder}/${fileName}.png`;
+    const name = phase.toLowerCase().replace(/\s+/g, '-');
+    return `https://res.cloudinary.com/${cloudName}/image/upload/${baseFolder}/${name}.png`;
   };
 
-  if (loading) {
-    return <p className="text-center text-gray-500 animate-pulse">Loading moon data...</p>;
-  }
-
-  if (error) {
-    return <p className="text-center text-red-600 dark:text-red-400">{error}</p>;
-  }
+  if (loading) return <p className="text-center animate-pulse">Loading moon data...</p>;
+  if (error) return <p className="text-center text-red-600">{error}</p>;
 
   return (
-    <section className="min-h-screen px-4 py-6 sm:py-8 bg-[#F4F1EC]">
+    <section className="min-h-screen p-4 bg-[#F4F1EC]">
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        {moonData.map((day, index) => (
+        {moonData.map((d, i) => (
           <motion.div
-            key={day.date}
-            className="rounded-2xl border border-gray-300 bg-white p-4 shadow-sm transition hover:shadow-lg"
-            whileHover={{ scale: 1.02 }}
+            key={d.date}
+            className="p-4 bg-white border rounded-xl shadow-sm hover:shadow-lg"
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: index * 0.03 }}
+            transition={{ delay: i * 0.02 }}
+            onClick={() => setSelectedImage(getImageSrc(d.phase))}
           >
-            <p className="text-lg font-semibold text-gray-800 text-center">
-              {new Date(day.date).toLocaleDateString(undefined, {
+            <p className="text-center font-semibold">
+              {new Date(d.date).toLocaleDateString(undefined, {
                 weekday: 'short',
                 month: 'short',
                 day: 'numeric',
               })}
             </p>
-
-            <div
-              className="my-3 cursor-pointer"
-              onClick={() => setSelectedImage(getImageSrc(day.phase))}
-            >
-              <Image
-                src={getImageSrc(day.phase)}
-                alt={`${day.phase} illustration`}
-                width={150}
-                height={150}
-                className="w-24 h-24 md:w-28 md:h-28 mx-auto object-contain"
-              />
-            </div>
-
-            <p className="text-burgundy font-semibold text-center">{day.phase}</p>
-            <p className="text-sm text-gray-600 mt-2 text-center">
-              {moonMeanings[day.phase] ?? 'No interpretation available.'}
+            <Image
+              src={getImageSrc(d.phase)}
+              alt={d.phase}
+              width={128}
+              height={128}
+              className="mx-auto"
+            />
+            <p className="text-center text-burgundy font-semibold">{d.phase}</p>
+            <p className="mt-2 text-sm text-gray-600 text-center">
+              {moonMeanings[d.phase] ?? 'No meaning available.'}
             </p>
           </motion.div>
         ))}
@@ -123,33 +107,30 @@ const MonthlyMoonCalendar = () => {
       <AnimatePresence>
         {selectedImage && (
           <motion.div
-            className="fixed inset-0 z-50 bg-black bg-opacity-80 flex items-center justify-center p-4"
+            className="fixed inset-0 z-50 bg-black bg-opacity-75 flex items-center justify-center"
             onClick={() => setSelectedImage(null)}
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
           >
             <motion.div
-              className="relative bg-white dark:bg-gray-900 rounded-xl max-w-full max-h-[90vh] w-auto"
+              className="relative bg-white rounded-xl"
               onClick={(e) => e.stopPropagation()}
-              initial={{ scale: 0.95 }}
+              initial={{ scale: 0.9 }}
               animate={{ scale: 1 }}
-              exit={{ scale: 0.9 }}
-              transition={{ duration: 0.3 }}
             >
               <button
                 onClick={() => setSelectedImage(null)}
-                className="absolute top-2 right-2 text-white bg-black bg-opacity-60 rounded-full p-1 hover:bg-opacity-90 transition"
-                aria-label="Close"
+                className="absolute top-2 right-2 text-black bg-white rounded-full p-1"
               >
                 ✕
               </button>
               <Image
                 src={selectedImage}
-                alt="Enlarged moon phase"
-                width={500}
-                height={500}
-                className="w-full h-auto max-w-[90vw] max-h-[80vh] object-contain rounded-xl"
+                alt="Moon phase"
+                width={400}
+                height={400}
+                className="rounded-xl"
               />
             </motion.div>
           </motion.div>
