@@ -1,6 +1,6 @@
 import type { NextApiRequest, NextApiResponse } from 'next';
 import { format, lastDayOfMonth } from 'date-fns';
-import { mapMoonPhase } from '@/utils/mapMoonPhase';
+import { mapMoonPhase } from '../../../utils/mapMoonPhase';
 
 const API_KEY = process.env.VISUAL_CROSSING_API_KEY;
 const BASE_URL = 'https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline';

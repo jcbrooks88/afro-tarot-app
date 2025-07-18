@@ -1,0 +1,602 @@
+[
+  {
+    "name": "first-quarter",
+    "type": "moon-phases",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866413/afro-tarot/moon-phases/first-quarter.png"
+  },
+  {
+    "name": "full-moon",
+    "type": "moon-phases",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866416/afro-tarot/moon-phases/full-moon.png"
+  },
+  {
+    "name": "last-quarter",
+    "type": "moon-phases",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866418/afro-tarot/moon-phases/last-quarter.png"
+  },
+  {
+    "name": "new-moon",
+    "type": "moon-phases",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866420/afro-tarot/moon-phases/new-moon.png"
+  },
+  {
+    "name": "waning-crescent",
+    "type": "moon-phases",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866421/afro-tarot/moon-phases/waning-crescent.png"
+  },
+  {
+    "name": "waning-gibbous",
+    "type": "moon-phases",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866423/afro-tarot/moon-phases/waning-gibbous.png"
+  },
+  {
+    "name": "waxing-crescent",
+    "type": "moon-phases",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866425/afro-tarot/moon-phases/waxing-crescent.png"
+  },
+  {
+    "name": "waxing-gibbous",
+    "type": "moon-phases",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866427/afro-tarot/moon-phases/waxing-gibbous.png"
+  },
+  {
+    "name": "ace-of-cups",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866428/afro-tarot/orishas/ace-of-cups.webp"
+  },
+  {
+    "name": "ace-of-pentacles",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866429/afro-tarot/orishas/ace-of-pentacles.webp"
+  },
+  {
+    "name": "ace-of-swords",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866430/afro-tarot/orishas/ace-of-swords.webp"
+  },
+  {
+    "name": "ace-of-wands",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866430/afro-tarot/orishas/ace-of-wands.webp"
+  },
+  {
+    "name": "acoverart",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866436/afro-tarot/orishas/acoverart.png"
+  },
+  {
+    "name": "aganju",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866439/afro-tarot/orishas/aganju.png"
+  },
+  {
+    "name": "aje",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866443/afro-tarot/orishas/aje.png"
+  },
+  {
+    "name": "ala",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866446/afro-tarot/orishas/ala.png"
+  },
+  {
+    "name": "alegba",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866449/afro-tarot/orishas/alegba.png"
+  },
+  {
+    "name": "aso",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866453/afro-tarot/orishas/aso.png"
+  },
+  {
+    "name": "babalu",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866456/afro-tarot/orishas/babalu.png"
+  },
+  {
+    "name": "death",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866457/afro-tarot/orishas/death.webp"
+  },
+  {
+    "name": "egun",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866460/afro-tarot/orishas/egun.png"
+  },
+  {
+    "name": "eight-of-cups",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866461/afro-tarot/orishas/eight-of-cups.webp"
+  },
+  {
+    "name": "eight-of-pentacles",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866462/afro-tarot/orishas/eight-of-pentacles.webp"
+  },
+  {
+    "name": "eight-of-swords",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866463/afro-tarot/orishas/eight-of-swords.webp"
+  },
+  {
+    "name": "eight-of-wands",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866464/afro-tarot/orishas/eight-of-wands.webp"
+  },
+  {
+    "name": "eji-ogbe",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866467/afro-tarot/orishas/eji-ogbe.png"
+  },
+  {
+    "name": "eleggua",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866470/afro-tarot/orishas/eleggua.png"
+  },
+  {
+    "name": "erinle",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866474/afro-tarot/orishas/erinle.png"
+  },
+  {
+    "name": "esau",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866477/afro-tarot/orishas/esau.png"
+  },
+  {
+    "name": "esu",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866480/afro-tarot/orishas/esu.png"
+  },
+  {
+    "name": "fallback",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866481/afro-tarot/orishas/fallback.webp"
+  },
+  {
+    "name": "five-of-cups",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866482/afro-tarot/orishas/five-of-cups.webp"
+  },
+  {
+    "name": "five-of-pentacles",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866483/afro-tarot/orishas/five-of-pentacles.webp"
+  },
+  {
+    "name": "five-of-swords",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866484/afro-tarot/orishas/five-of-swords.webp"
+  },
+  {
+    "name": "five-of-wands",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866485/afro-tarot/orishas/five-of-wands.webp"
+  },
+  {
+    "name": "four-of-cups",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866485/afro-tarot/orishas/four-of-cups.webp"
+  },
+  {
+    "name": "four-of-pentacles",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866486/afro-tarot/orishas/four-of-pentacles.webp"
+  },
+  {
+    "name": "four-of-swords",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866486/afro-tarot/orishas/four-of-swords.webp"
+  },
+  {
+    "name": "four-of-wands",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866487/afro-tarot/orishas/four-of-wands.webp"
+  },
+  {
+    "name": "ibeji",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866490/afro-tarot/orishas/ibeji.png"
+  },
+  {
+    "name": "igbale",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866493/afro-tarot/orishas/igbale.png"
+  },
+  {
+    "name": "iku",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866497/afro-tarot/orishas/iku.png"
+  },
+  {
+    "name": "iroko",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866500/afro-tarot/orishas/iroko.png"
+  },
+  {
+    "name": "irá",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866503/afro-tarot/orishas/rgdorg8nulgsj3fgag5b.png"
+  },
+  {
+    "name": "iyalode",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866506/afro-tarot/orishas/iyalode.png"
+  },
+  {
+    "name": "judgement",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866507/afro-tarot/orishas/judgement.webp"
+  },
+  {
+    "name": "justice",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866508/afro-tarot/orishas/justice.webp"
+  },
+  {
+    "name": "king-of-cups",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866509/afro-tarot/orishas/king-of-cups.webp"
+  },
+  {
+    "name": "king-of-pentacles",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866509/afro-tarot/orishas/king-of-pentacles.webp"
+  },
+  {
+    "name": "king-of-swords",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866510/afro-tarot/orishas/king-of-swords.webp"
+  },
+  {
+    "name": "king-of-wands",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866511/afro-tarot/orishas/king-of-wands.webp"
+  },
+  {
+    "name": "knight-of-cups",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866511/afro-tarot/orishas/knight-of-cups.webp"
+  },
+  {
+    "name": "knight-of-pentacles",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866512/afro-tarot/orishas/knight-of-pentacles.webp"
+  },
+  {
+    "name": "knight-of-swords",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866513/afro-tarot/orishas/knight-of-swords.webp"
+  },
+  {
+    "name": "knight-of-wands",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866514/afro-tarot/orishas/knight-of-wands.webp"
+  },
+  {
+    "name": "nine-of-cups",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866515/afro-tarot/orishas/nine-of-cups.webp"
+  },
+  {
+    "name": "nine-of-pentacles",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866516/afro-tarot/orishas/nine-of-pentacles.webp"
+  },
+  {
+    "name": "nine-of-swords",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866516/afro-tarot/orishas/nine-of-swords.webp"
+  },
+  {
+    "name": "nine-of-wands",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866517/afro-tarot/orishas/nine-of-wands.webp"
+  },
+  {
+    "name": "obatala",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866521/afro-tarot/orishas/obatala.png"
+  },
+  {
+    "name": "ochosi",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866525/afro-tarot/orishas/ochosi.png"
+  },
+  {
+    "name": "oda",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866528/afro-tarot/orishas/oda.png"
+  },
+  {
+    "name": "ogun",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866532/afro-tarot/orishas/ogun.png"
+  },
+  {
+    "name": "olodumare",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866535/afro-tarot/orishas/olodumare.png"
+  },
+  {
+    "name": "olokun",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866539/afro-tarot/orishas/olokun.png"
+  },
+  {
+    "name": "olosa",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866542/afro-tarot/orishas/olosa.png"
+  },
+  {
+    "name": "orula",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866546/afro-tarot/orishas/orula.png"
+  },
+  {
+    "name": "orunmila",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866549/afro-tarot/orishas/orunmila.png"
+  },
+  {
+    "name": "osain",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866553/afro-tarot/orishas/osain.png"
+  },
+  {
+    "name": "oshun",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866557/afro-tarot/orishas/oshun.png"
+  },
+  {
+    "name": "oya",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866561/afro-tarot/orishas/oya.png"
+  },
+  {
+    "name": "page-of-cups",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866562/afro-tarot/orishas/page-of-cups.webp"
+  },
+  {
+    "name": "page-of-pentacles",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866565/afro-tarot/orishas/page-of-pentacles.webp"
+  },
+  {
+    "name": "page-of-swords",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866565/afro-tarot/orishas/page-of-swords.webp"
+  },
+  {
+    "name": "page-of-wands",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866566/afro-tarot/orishas/page-of-wands.webp"
+  },
+  {
+    "name": "queen-of-cups",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866567/afro-tarot/orishas/queen-of-cups.webp"
+  },
+  {
+    "name": "queen-of-pentacles",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866568/afro-tarot/orishas/queen-of-pentacles.webp"
+  },
+  {
+    "name": "queen-of-swords",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866569/afro-tarot/orishas/queen-of-swords.webp"
+  },
+  {
+    "name": "queen-of-wands",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866570/afro-tarot/orishas/queen-of-wands.webp"
+  },
+  {
+    "name": "seven-of-cups",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866571/afro-tarot/orishas/seven-of-cups.webp"
+  },
+  {
+    "name": "seven-of-pentacles",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866572/afro-tarot/orishas/seven-of-pentacles.webp"
+  },
+  {
+    "name": "seven-of-swords",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866573/afro-tarot/orishas/seven-of-swords.webp"
+  },
+  {
+    "name": "seven-of-wands",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866573/afro-tarot/orishas/seven-of-wands.webp"
+  },
+  {
+    "name": "shango",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866584/afro-tarot/orishas/shango.png"
+  },
+  {
+    "name": "six-of-cups",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866586/afro-tarot/orishas/six-of-cups.webp"
+  },
+  {
+    "name": "six-of-pentacles",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866587/afro-tarot/orishas/six-of-pentacles.webp"
+  },
+  {
+    "name": "six-of-swords",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866588/afro-tarot/orishas/six-of-swords.webp"
+  },
+  {
+    "name": "six-of-wands",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866589/afro-tarot/orishas/six-of-wands.webp"
+  },
+  {
+    "name": "strength",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866591/afro-tarot/orishas/strength.webp"
+  },
+  {
+    "name": "temperance",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866592/afro-tarot/orishas/temperance.webp"
+  },
+  {
+    "name": "ten-of-cups",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866593/afro-tarot/orishas/ten-of-cups.webp"
+  },
+  {
+    "name": "ten-of-pentacles",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866597/afro-tarot/orishas/ten-of-pentacles.webp"
+  },
+  {
+    "name": "ten-of-swords",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866597/afro-tarot/orishas/ten-of-swords.webp"
+  },
+  {
+    "name": "ten-of-wands",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866598/afro-tarot/orishas/ten-of-wands.webp"
+  },
+  {
+    "name": "the-chariot",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866599/afro-tarot/orishas/the-chariot.webp"
+  },
+  {
+    "name": "the-devil",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866599/afro-tarot/orishas/the-devil.webp"
+  },
+  {
+    "name": "the-emperor",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866600/afro-tarot/orishas/the-emperor.webp"
+  },
+  {
+    "name": "the-empress",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866601/afro-tarot/orishas/the-empress.webp"
+  },
+  {
+    "name": "the-fool",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866602/afro-tarot/orishas/the-fool.webp"
+  },
+  {
+    "name": "the-hanged-man",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866603/afro-tarot/orishas/the-hanged-man.webp"
+  },
+  {
+    "name": "the-hermit",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866604/afro-tarot/orishas/the-hermit.webp"
+  },
+  {
+    "name": "the-hierophant",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866604/afro-tarot/orishas/the-hierophant.webp"
+  },
+  {
+    "name": "the-high-priestess",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866605/afro-tarot/orishas/the-high-priestess.webp"
+  },
+  {
+    "name": "the-lovers",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866606/afro-tarot/orishas/the-lovers.webp"
+  },
+  {
+    "name": "the-magician",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866606/afro-tarot/orishas/the-magician.webp"
+  },
+  {
+    "name": "the-moon",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866607/afro-tarot/orishas/the-moon.webp"
+  },
+  {
+    "name": "the-star",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866608/afro-tarot/orishas/the-star.webp"
+  },
+  {
+    "name": "the-sun",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866609/afro-tarot/orishas/the-sun.webp"
+  },
+  {
+    "name": "the-tower",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866610/afro-tarot/orishas/the-tower.webp"
+  },
+  {
+    "name": "the-world",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866610/afro-tarot/orishas/the-world.webp"
+  },
+  {
+    "name": "three-of-cups",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866611/afro-tarot/orishas/three-of-cups.webp"
+  },
+  {
+    "name": "three-of-pentacles",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866612/afro-tarot/orishas/three-of-pentacles.webp"
+  },
+  {
+    "name": "three-of-swords",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866613/afro-tarot/orishas/three-of-swords.webp"
+  },
+  {
+    "name": "three-of-wands",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866614/afro-tarot/orishas/three-of-wands.webp"
+  },
+  {
+    "name": "two-of-cups",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866615/afro-tarot/orishas/two-of-cups.webp"
+  },
+  {
+    "name": "two-of-pentacles",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866615/afro-tarot/orishas/two-of-pentacles.webp"
+  },
+  {
+    "name": "two-of-swords",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866616/afro-tarot/orishas/two-of-swords.webp"
+  },
+  {
+    "name": "two-of-wands",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866617/afro-tarot/orishas/two-of-wands.webp"
+  },
+  {
+    "name": "wheel-of-fortune",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866618/afro-tarot/orishas/wheel-of-fortune.webp"
+  },
+  {
+    "name": "yemaya",
+    "type": "orishas",
+    "url": "https://res.cloudinary.com/djg9rvq12/image/upload/v1752866624/afro-tarot/orishas/yemaya.png"
+  }
+]

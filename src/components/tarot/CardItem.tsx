@@ -14,8 +14,14 @@ interface CardItemProps {
   onPress: () => void;
 }
 
+const CLOUD_NAME = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME;
+const BASE_FOLDER = process.env.NEXT_PUBLIC_CLOUDINARY_BASE_FOLDER;
+const BASE_URL = `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/${BASE_FOLDER}`;
+
 const CardItem: React.FC<CardItemProps> = ({ card, onPress }) => {
   const imageName = formatCardName(card.name);
+  const imageUrl = `${BASE_URL}/${imageName}.webp`;
+  const fallbackUrl = `/images/fallback.webp`;
 
   return (
     <div
@@ -24,14 +30,17 @@ const CardItem: React.FC<CardItemProps> = ({ card, onPress }) => {
     >
       <div className="relative w-32 sm:w-44 aspect-[2/3] mb-3 sm:mb-4">
         <Image
-          src={`/images/${imageName}.webp`}
+          src={imageUrl}
           alt={card.name}
           fill
           sizes="(max-width: 640px) 128px, 176px"
           className="object-contain rounded-lg"
-          onError={(e) =>
-            ((e.currentTarget as HTMLImageElement).src = '/images/fallback.webp')
-          }
+          onError={(e) => {
+            const target = e.currentTarget as HTMLImageElement;
+            if (target.src !== fallbackUrl) {
+              target.src = fallbackUrl;
+            }
+          }}
         />
       </div>
 
@@ -41,12 +50,11 @@ const CardItem: React.FC<CardItemProps> = ({ card, onPress }) => {
 
       <p className="text-xs sm:text-sm text-gray-500 text-center line-clamp-2">
         {card.keywords.join(', ')}
-        <br></br>
+        <br />
         {card.meaning_up}
-        <br></br>
+        <br />
         {card.meaning_rev}
       </p>
-      
     </div>
   );
 };

@@ -14,16 +14,36 @@ const MonthlyMoonCalendar = () => {
   const [loading, setLoading] = useState(true);
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
+  const cloudName = process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME;
+  const baseFolder = process.env.NEXT_PUBLIC_CLOUDINARY_MOON_FOLDER;
+
   useEffect(() => {
     const fetchMoon = async (latLong: string) => {
       try {
         const res = await fetch(`/api/moon/month?location=${latLong}`);
+
+        if (!res.ok) {
+          const errorText = await res.text();
+          console.error(`Moon API Error (${res.status}):`, errorText);
+          setError('Moon data could not be fetched. Please try again later.');
+          return;
+        }
+
         const data = await res.json();
+
+        if (!data || !Array.isArray(data.moonData)) {
+          console.error('Unexpected moon data format:', data);
+          setError('Invalid moon data format.');
+          return;
+        }
+
         setMoonData(data.moonData);
-        console.log("Fetched moon data:", data.moonData);
+        console.log('Fetched moon data:', data.moonData);
       } catch (err: unknown) {
         if (err instanceof Error) {
-          console.error(err.message);
+          console.error('Fetch error:', err.message);
+        } else {
+          console.error('Unknown fetch error:', err);
         }
         setError('Could not load moon data.');
       } finally {
@@ -48,7 +68,7 @@ const MonthlyMoonCalendar = () => {
 
   const getImageSrc = (phase: string) => {
     const fileName = phase.toLowerCase().replace(/\s+/g, '-');
-    return `/images/moon-phases/${fileName}.png`;
+    return `https://res.cloudinary.com/${cloudName}/image/upload/${baseFolder}/${fileName}.png`;
   };
 
   if (loading) {

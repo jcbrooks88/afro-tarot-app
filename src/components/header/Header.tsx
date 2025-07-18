@@ -40,6 +40,7 @@ const Header = () => {
     { label: 'Home', href: '/' },
     { label: 'Tarot Cards', href: '/tarot' },
     { label: 'Moon Calendar', href: '/moon' },
+    { label: 'The Orishas', href: '/orisha' },
   ];
 
   return (

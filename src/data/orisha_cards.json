@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Ogun",
+        "pronunciation": "oh-GOON",
+        "zodiac_sign": "Aries",
+        "zodiac_dates": "Mar 21 - Apr 19",
+        "keywords": [
+          "War",
+          "Technology",
+          "Metalwork",
+          "Courage"
+        ],
+        "description": "TBD"
+    }
+  ]
