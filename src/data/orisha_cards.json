@@ -161,38 +161,37 @@
       ],
       "description": "The tenth house of the Zodiac, ruled by Capricorn and the planet Saturn, governs career, public life, social roles, and long-term goals. It reflects how we strive for recognition, status, and purpose in the broader structure of society. Saturn’s energy brings discipline, responsibility, and the karmic lessons required to achieve lasting success. In Yoruba cosmology, Saturn is associated with Babalú-Ayé, the Orisha of disease, healing, and divine retribution. Also known as Omolu or Sopona, Babalú-Ayé is both feared and revered as a powerful force capable of spreading illness and offering miraculous healing. Known as the 'Wrath of the Supreme God,' he punishes transgressions yet also brings deep purification and renewal. His alignment with Capricorn emphasizes the hard-earned wisdom that comes through trials, structure, and perseverance. To honor Babalú-Ayé, rituals can be held during Capricorn season or Saturn-aligned astrological events. Offerings may include white or brown candles, grains, or symbolic items like crutches or dogs—creatures closely associated with his lore. By working with Babalú-Ayé’s energy, you can navigate hardship with grace, strengthen your resilience, and manifest healing in both your personal and public life through devotion and disciplined growth."
     },
-    
-  {
-    "id": 11,
-    "name": "Shango",
-    "pronunciation": "SHAHN-go",
-    "zodiac_sign": "Aquarius",
-    "zodiac_dates": "Jan 20 - Feb 18",
-    "zodiac_planet": "Uranus",
-    "keywords": [
-      "Thunder",
-      "Lightning",
-      "Fire",
-      "Drumming",
-      "Justice",
-      "Masculinity",
-      "Passion"
-    ],
-    "description": " "
-  },
-  {
-    "id": 12,
-    "name": "Olokun",
-    "pronunciation": "oh-LOH-koon",
-    "zodiac_sign": "Pisces",
-    "zodiac_dates": "Feb 19 - Mar 20",
-    "zodiac_planet": "Neptune",
-    "keywords": [
-      "Depth",
-      "Mystery",
-      "Wealth",
-      "Subconscious"
-    ],
-    "description": " "
-  }
+    {
+      "id": 11,
+      "name": "Shango",
+      "pronunciation": "SHAHN-go",
+      "zodiac_sign": "Aquarius",
+      "zodiac_dates": "Jan 20 - Feb 18",
+      "zodiac_planet": "Uranus",
+      "keywords": [
+        "Thunder",
+        "Lightning",
+        "Fire",
+        "Drumming",
+        "Justice",
+        "Masculinity",
+        "Passion"
+        ],
+        "description": "Shango, the Orisha of thunder, lightning, fire, drumming, and masculine vitality, is a powerful force of action and transformation. Ruled by Uranus and the zodiac sign Aquarius, the eleventh house represents friendships, groups, and revolutionary ideals. Shango embodies the bold, innovative spirit of Aquarius through his passionate leadership and dramatic displays of power. Though once a mortal king, his miraculous deeds after death elevated him to divine status. He is the brother of Babalú-Ayé, linked to the house of public roles and legacy. Shango’s energy channels strength, celebration, and courage—ideal for those navigating change, rebellion, or communal causes. His association with Aquarius and Uranus adds a layer of radical liberation, inspiring collective movements and social evolution. Honoring Shango during the Aquarius season or Uranus transits—by lighting red candles or incorporating iron—can invoke inner strength and a deeper connection to personal power, creativity, and justice."
+    },
+    {
+      "id": 12,
+      "name": "Olokun",
+      "pronunciation": "oh-LOH-koon",
+      "zodiac_sign": "Pisces",
+      "zodiac_dates": "Feb 19 - Mar 20",
+      "zodiac_planet": "Neptune",
+      "keywords": [
+        "Depth",
+        "Mystery",
+        "Wealth",
+        "Subconscious"
+        ],
+        "description": "Olokun, the Orisha of the ocean depths, governs the twelfth house of the Zodiac, ruled by Neptune and the sign Pisces. This mysterious realm symbolizes the subconscious, dreams, isolation, and hidden knowledge. Like the ocean floor—where Olokun is bound by seven chains—this house holds ancient secrets and unseen forces. Olokun’s energy resides in altered states of consciousness, spiritual initiation, and visionary insight. Associated with Pisces’ intuitive, empathetic qualities and Neptune’s dreamlike, spiritual power, Olokun awakens the inner genius and the soul’s deepest callings. This Orisha teaches that what is hidden may be most powerful. Honoring Olokun during Pisces season or Neptune-related events—using seashells, blue candles, or meditation—can help you access wisdom from beyond the veil and invite transformative healing through emotional and spiritual depth."
+    }
 ]
