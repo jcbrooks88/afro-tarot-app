@@ -1,16 +1,197 @@
 [
-    {
-        "id": 1,
-        "name": "Ogun",
-        "pronunciation": "oh-GOON",
-        "zodiac_sign": "Aries",
-        "zodiac_dates": "Mar 21 - Apr 19",
-        "keywords": [
-          "War",
-          "Technology",
-          "Metalwork",
-          "Courage"
-        ],
-        "description": "TBD"
-    }
-  ]
+  {
+    "id": 1,
+    "name": "Ogun",
+    "pronunciation": "oh-GOON",
+    "zodiac_sign": "Aries",
+    "zodiac_dates": "Mar 21 - Apr 19",
+    "zodiac_planet": "Mars",
+    "keywords": [
+      "War",
+      "Technology",
+      "Metalwork",
+      "Courage"
+    ],
+    "description": "TBD"
+  },
+  {
+    "id": 2,
+    "name": "Oshun",
+    "pronunciation": "Love",
+    "zodiac_sign": "Taurus",
+    "zodiac_dates": "Apr 20 - May 20",
+    "zodiac_planet": "Venus",
+    "keywords": [
+      "Love",
+      "Beauty",
+      "Fertility",
+      "Prosperity",
+      "Rivers",
+      "Healing"
+    ],
+    "description": " "
+  },
+  {
+    "id": 3,
+    "name": "Ibeji",
+    "pronunciation": "ee‑BEY‑jee",
+    "zodiac_sign": "Gemini",
+    "zodiac_dates": "May 21 - Jun 20",
+    "zodiac_planet": "Mercury",
+    "keywords": [
+      "Twins",
+      "Joy",
+      "Innocence",
+      "Playfulness"
+    ],
+    "description": " "
+  },
+  {
+    "id": 4,
+    "name": "Yemaya",
+    "pronunciation": "oh-bah-tah-LAH",
+    "zodiac_sign": "Cancer",
+    "zodiac_dates": "Jun 21 - Jul 22",
+    "zodiac_planet": "The Moon",
+    "keywords": [
+      "Motherhood",
+      "Ocean",
+      "Nurturing",
+      "Fertility",
+      "Protection"
+    ],
+    "description": " "
+  },
+  {
+    "id": 5,
+    "name": "Orula (Orunmila)",
+    "pronunciation": "oh-ROO-lah",
+    "zodiac_sign": "Leo",
+    "zodiac_dates": "Jul 23 - Aug 22",
+    "zodiac_planet": "The Sun",
+    "keywords": [
+      "Wisdom",
+      "Divination",
+      "Destiny",
+      "Foresight",
+      "Knowledge",
+      "Guidance"
+    ],
+    "description": " "
+  },
+  {
+    "id": 6,
+    "name": "Eshu (Elegua)",
+    "pronunciation": "EH-shoo",
+    "zodiac_sign": "Virgo",
+    "zodiac_dates": "Aug 23 - Sep 22",
+    "keywords": [
+      "Trickster",
+      "Messenger",
+      "Communication",
+      "Choice",
+      "Crossroads",
+      "Balance"
+    ],
+    "description": " "
+  },
+  {
+    "id": 7,
+    "name": "Oba",
+    "pronunciation": "oh-bah",
+    "zodiac_sign": "Libra",
+    "zodiac_dates": "Sep 23 - Oct 22",
+    "zodiac_planet": "Venus",
+    "keywords": [
+      "Sacrifice",
+      "Loyalty",
+      "Wifehood",
+      "Jealousy",
+      "Heartache"
+    ],
+    "description": " "
+  },
+  {
+    "id": 8,
+    "name": "Oya",
+    "pronunciation": "OH-yah",
+    "zodiac_sign": "Scorpio",
+    "zodiac_dates": "Oct 23 - Nov 21",
+    "zodiac_planet": "Pluto",
+    "keywords": [
+      "Storms",
+      "Change",
+      "Transformation",
+      "Death",
+      "Rebirth",
+      "Wind"
+    ],
+    "description": " "
+  },
+  {
+    "id": 9,
+    "name": "Obatala",
+    "pronunciation": "oh-bah-tah-LAH",
+    "zodiac_sign": "Sagittarius",
+    "zodiac_dates": "Nov 22 - Dec 21",
+    "zodiac_planet": "Jupiter",
+    "keywords": [
+      "Purity",
+      "Wisdom",
+      "Peace",
+      "Justice",
+      "Patience",
+      "Compassion"
+    ],
+    "description": " "
+  },
+  {
+    "id": 10,
+    "name": "Babalú-Ayé",
+    "pronunciation": "bah-bah-LOO ah-YEH",
+    "zodiac_sign": "Capricorn",
+    "zodiac_dates": "Dec 22 - Jan 19",
+    "zodiac_planet": "Saturn",
+    "keywords": [
+      "Illness",
+      "Healing",
+      "Plagues",
+      "Devotion",
+      "Suffering"
+    ],
+    "description": " "
+  },
+  {
+    "id": 11,
+    "name": "Shango",
+    "pronunciation": "SHAHN-go",
+    "zodiac_sign": "Aquarius",
+    "zodiac_dates": "Jan 20 - Feb 18",
+    "zodiac_planet": "Uranus",
+    "keywords": [
+      "Thunder",
+      "Lightning",
+      "Fire",
+      "Drumming",
+      "Justice",
+      "Masculinity",
+      "Passion"
+    ],
+    "description": " "
+  },
+  {
+    "id": 12,
+    "name": "Olokun",
+    "pronunciation": "oh-LOH-koon",
+    "zodiac_sign": "Pisces",
+    "zodiac_dates": "Feb 19 - Mar 20",
+    "zodiac_planet": "Neptune",
+    "keywords": [
+      "Depth",
+      "Mystery",
+      "Wealth",
+      "Subconscious"
+    ],
+    "description": " "
+  }
+]
