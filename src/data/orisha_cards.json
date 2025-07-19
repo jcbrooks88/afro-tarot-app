@@ -12,8 +12,8 @@
       "Metalwork",
       "Courage"
     ],
-    "description": "TBD"
-  },
+    "description": "The First House of the Zodiac, ruled by the Ascendant, represents the acting self—how you present your personality to the world. Governed by Mars, the Roman god of war, this house embodies action, drive, and initiation. These qualities mirror the fierce and determined energy of Ogun, the Orisha of iron, war, and technology. As the spiritual counterpart to Aries, Ogun exemplifies courage, independence, and assertiveness. He is the patron of warriors in all forms—soldiers, police officers, surgeons, bodybuilders, railroad workers, welders, and anyone who shapes the world through strength and precision.\n\nMuch like the blacksmith who molds raw metal into form, the First House symbolizes the ongoing process of shaping both your inner identity and outward expression. Ogun's presence empowers this transformation, offering the fortitude to face obstacles and the energy to pursue your goals. His connection to Mars intensifies this dynamic force, aligning with moments of bold beginnings and fearless action.\n\nTo honor Ogun, rituals can be performed during Aries season or during Mars-influenced astrological events. Symbols such as iron tools and red candles serve as powerful offerings. Invoking Ogun’s energy can awaken your inner warrior, helping you take decisive steps toward your highest potential and guiding you through times of challenge and growth."
+  },  
   {
     "id": 2,
     "name": "Oshun",
@@ -29,138 +29,139 @@
       "Rivers",
       "Healing"
     ],
-    "description": " "
-  },
+    "description": "Taurus rules the second house in astrology, known as the House of Possessions. This includes not only material wealth but also the personal traits, values, and qualities we cherish within ourselves. Governed by Venus—the Roman goddess of love and beauty—Taurus is deeply connected to themes of sensuality, stability, and abundance. Venus's Orisha counterpart is Oshun, the beloved goddess of fresh waters, fertility, sensuality, love, and prosperity. Unlike Yemoja, who rules the vast ocean, Oshun is associated with rivers and streams—symbolizing nourishment, flow, and emotional depth. Often depicted as a radiant young woman adorned in gold, she is celebrated for her compassion and healing presence, especially among the poor and sick. Oshun’s energy aligns closely with the essence of Taurus: grounded, indulgent, and attuned to beauty and pleasure. To honor Oshun, you can create rituals during Taurus season or on days influenced by Venus. Include offerings and symbols sacred to her, such as honey, gold jewelry, cinnamon, oranges, or a hand mirror. By invoking Oshun’s presence, you invite love, creativity, sensual joy, and emotional abundance into your life—reminding you to value both your inner worth and the pleasures of the physical world."
+  },  
   {
-    "id": 3,
-    "name": "Ibeji",
-    "pronunciation": "ee‑BEY‑jee",
-    "zodiac_sign": "Gemini",
-    "zodiac_dates": "May 21 - Jun 20",
-    "zodiac_planet": "Mercury",
-    "keywords": [
-      "Twins",
-      "Joy",
-      "Innocence",
-      "Playfulness"
-    ],
-    "description": " "
-  },
-  {
-    "id": 4,
-    "name": "Yemaya",
-    "pronunciation": "oh-bah-tah-LAH",
-    "zodiac_sign": "Cancer",
-    "zodiac_dates": "Jun 21 - Jul 22",
-    "zodiac_planet": "The Moon",
-    "keywords": [
-      "Motherhood",
-      "Ocean",
-      "Nurturing",
-      "Fertility",
-      "Protection"
-    ],
-    "description": " "
-  },
-  {
-    "id": 5,
-    "name": "Orula (Orunmila)",
-    "pronunciation": "oh-ROO-lah",
-    "zodiac_sign": "Leo",
-    "zodiac_dates": "Jul 23 - Aug 22",
-    "zodiac_planet": "The Sun",
-    "keywords": [
-      "Wisdom",
-      "Divination",
-      "Destiny",
-      "Foresight",
-      "Knowledge",
-      "Guidance"
-    ],
-    "description": " "
-  },
-  {
-    "id": 6,
-    "name": "Eshu (Elegua)",
-    "pronunciation": "EH-shoo",
-    "zodiac_sign": "Virgo",
-    "zodiac_dates": "Aug 23 - Sep 22",
-    "keywords": [
-      "Trickster",
-      "Messenger",
-      "Communication",
-      "Choice",
-      "Crossroads",
-      "Balance"
-    ],
-    "description": " "
-  },
-  {
-    "id": 7,
-    "name": "Oba",
-    "pronunciation": "oh-bah",
-    "zodiac_sign": "Libra",
-    "zodiac_dates": "Sep 23 - Oct 22",
-    "zodiac_planet": "Venus",
-    "keywords": [
-      "Sacrifice",
-      "Loyalty",
-      "Wifehood",
-      "Jealousy",
-      "Heartache"
-    ],
-    "description": " "
-  },
-  {
-    "id": 8,
-    "name": "Oya",
-    "pronunciation": "OH-yah",
-    "zodiac_sign": "Scorpio",
-    "zodiac_dates": "Oct 23 - Nov 21",
-    "zodiac_planet": "Pluto",
-    "keywords": [
-      "Storms",
-      "Change",
-      "Transformation",
-      "Death",
-      "Rebirth",
-      "Wind"
-    ],
-    "description": " "
-  },
-  {
-    "id": 9,
-    "name": "Obatala",
-    "pronunciation": "oh-bah-tah-LAH",
-    "zodiac_sign": "Sagittarius",
-    "zodiac_dates": "Nov 22 - Dec 21",
-    "zodiac_planet": "Jupiter",
-    "keywords": [
-      "Purity",
-      "Wisdom",
-      "Peace",
-      "Justice",
-      "Patience",
-      "Compassion"
-    ],
-    "description": " "
-  },
-  {
-    "id": 10,
-    "name": "Babalú-Ayé",
-    "pronunciation": "bah-bah-LOO ah-YEH",
-    "zodiac_sign": "Capricorn",
-    "zodiac_dates": "Dec 22 - Jan 19",
-    "zodiac_planet": "Saturn",
-    "keywords": [
-      "Illness",
-      "Healing",
-      "Plagues",
-      "Devotion",
-      "Suffering"
-    ],
-    "description": " "
-  },
+      "id": 3,
+      "name": "Ibeji",
+      "pronunciation": "ee‑BEY‑jee",
+      "zodiac_sign": "Gemini",
+      "zodiac_dates": "May 21 - Jun 20",
+      "zodiac_planet": "Mercury",
+      "keywords": [
+        "Twins",
+        "Joy",
+        "Innocence",
+        "Playfulness"
+      ],
+      "description": "The third house in astrology is ruled by Gemini and associated with communication, thought processes, siblings, short journeys, and writing. Its Orisha counterpart is Ibeji, the sacred divine twins in Yoruba tradition. While they appear as two, the Ibeji are considered one Orisha—two bodies sharing one soul, representing duality, unity, and the sacred balance of life. In Yoruba culture, twins are revered as magical and destined, bound together through spiritual purpose. The Ibeji embody the dual forces of nature: light and shadow, joy and sorrow, thought and emotion. They are aligned with the qualities of Gemini—curiosity, adaptability, versatility, and youthful energy. Governed by Mercury, the planet of intellect and communication, the Ibeji invite us to embrace both playfulness and mental agility. To honor the Ibeji, you can perform rituals during Gemini season or Mercury-aligned astrological events. Symbols such as twin dolls or figurines can represent their presence. Working with the energy of the Ibeji can help you reconnect with joy, find balance between opposing forces within yourself, and stay open to the wonder and mystery of everyday life."
+    },
+    {
+      "id": 4,
+      "name": "Yemaya",
+      "pronunciation": "oh-bah-tah-LAH",
+      "zodiac_sign": "Cancer",
+      "zodiac_dates": "Jun 21 - Jul 22",
+      "zodiac_planet": "The Moon",
+      "keywords": [
+        "Motherhood",
+        "Ocean",
+        "Nurturing",
+        "Fertility",
+        "Protection"
+      ],
+      "description": "The fourth house of the Zodiac is ruled by Cancer and governs themes of home, family, roots, and emotional security. Cancer is a deeply maternal and intuitive sign, embodying protection, nurturing, and the instinct to care for others. These qualities are beautifully mirrored in Yemaya, the Orisha of the ocean and the great mother of all Orisha. Her name, a contraction of the Yoruba phrase 'Yeye omo eja,' means 'Mother whose children are like fish'—a reflection of her boundless maternal care and connection to the sea. Yemaya is the patron spirit of women, especially mothers and pregnant women, and is often honored as a source of emotional healing and protection. Governed by the Moon, Cancer’s ruling celestial body, Yemaya is closely tied to lunar rhythms and the tides, symbolizing emotional ebb and flow. To honor Yemaya’s energy, you can perform rituals during Cancer season or Moon-related astrological events. Symbols such as ocean water, seashells, fish, or crescent moons can help you connect with her. Inviting Yemaya into your spiritual practice encourages emotional healing, deep intuition, and comfort through life’s changing currents."
+    },
+    {
+      "id": 5,
+      "name": "Orula (Orunmila)",
+      "pronunciation": "oh-ROO-lah",
+      "zodiac_sign": "Leo",
+      "zodiac_dates": "Jul 23 - Aug 22",
+      "zodiac_planet": "The Sun",
+      "keywords": [
+        "Wisdom",
+        "Divination",
+        "Destiny",
+        "Foresight",
+        "Knowledge",
+        "Guidance"
+      ],
+      "description": "The fifth house of the Zodiac, ruled by Leo, governs creativity, pleasure, and the joyful expression of life through art, play, romance, and even procreation. Its ruling celestial body, the Sun, symbolizes vitality, illumination, and the divine spark of inspiration. These powerful themes align with Orula (also known as Orunmila), the Orisha of wisdom, divination, and destiny. Orula holds the sacred duty of recording each person’s fate from the moment they receive the breath of life. His energy radiates with insight, guidance, and foresight—qualities that illuminate life’s path much like the Sun itself. Though often associated with Cancer due to his intuitive wisdom, Orula’s connection to Leo comes from the solar qualities he embodies: light, clarity, and healing through divine knowledge. To honor Orula during Leo season or on Sun-related astrological events, incorporate sun symbols into your practice—such as gold or yellow candles, radiant imagery, or offerings of light. By invoking Orula’s presence, you align with the creative power of the Sun, receiving the wisdom and courage needed to move forward with purpose, confidence, and clarity."
+    },
+    {
+      "id": 6,
+      "name": "Eshu (Elegua)",
+      "pronunciation": "EH-shoo",
+      "zodiac_sign": "Virgo",
+      "zodiac_dates": "Aug 23 - Sep 22",
+      "keywords": [
+        "Trickster",
+        "Messenger",
+        "Communication",
+        "Choice",
+        "Crossroads",
+        "Balance"
+      ],
+      "description": "The sixth house of the Zodiac, aligned with the sign Virgo, focuses on health, service, routine, and the ways we bring order to our daily lives. Governed by Mercury—the planet of intellect, communication, and travel—this house is about refining, analyzing, and preparing. These qualities mirror the energy of Eshu, also known as Elegua, the Orisha of crossroads, communication, and divine messages. Eshu serves as the intermediary between humans and the Orisha, standing at the spiritual threshold where all interactions with the divine must begin. Just as Virgo clears paths through analysis and service, Eshu clears the way for spiritual connection, ensuring messages are received with clarity and intention. A guardian of beginnings and endings, he is also known as a trickster who teaches through unexpected turns. To connect with Eshu’s energy, rituals may be performed during Virgo season or on Mercury-aligned astrological days. Offerings like cowrie shells, keys, or statues of Elegua are traditional symbols of his presence. Engaging with Eshu helps enhance your adaptability, decision-making, and communication, guiding you with wisdom as you navigate life’s many crossroads. Always approach him with respect and sincerity, for Eshu opens the doors to deeper insight and spiritual truth."
+    },
+    {
+      "id": 7,
+      "name": "Oba",
+      "pronunciation": "oh-bah",
+      "zodiac_sign": "Libra",
+      "zodiac_dates": "Sep 23 - Oct 22",
+      "zodiac_planet": "Venus",
+      "keywords": [
+        "Sacrifice",
+        "Loyalty",
+        "Wifehood",
+        "Jealousy",
+        "Heartache"
+      ],
+      "description": "The seventh house of the Zodiac, ruled by Libra, governs relationships, marriage, contracts, and all forms of partnership. It is through these connections that we come to better understand ourselves, experiencing growth, harmony, and often transformation. Libra, an air sign ruled by Venus, seeks balance, justice, and union—qualities deeply reflected in the story of Oba, the Orisha of marriage, loyalty, and personal transformation. Oba was the first wife of Shango, devoted and dutiful, embodying the archetype of the ideal partner. Yet after being deceived by her sister Oya into using witchcraft to secure Shango’s love, Oba suffered betrayal and heartbreak. Fleeing to the cemetery in shame, she embarked on a profound journey of spiritual rebirth and transformation, eventually emerging in her full power. Oba’s myth speaks to the painful but powerful lessons we learn through intimate partnerships—how love, betrayal, sacrifice, and healing can all serve to awaken our deeper purpose. To honor Oba, you can reflect on your relationships during Libra season or Venus-related astrological transits. Her story reminds us that true strength and identity can emerge from heartache, and that balanced partnerships can be sacred mirrors for growth, purpose, and healing."
+    },
+    {
+      "id": 8,
+      "name": "Oya",
+      "pronunciation": "OH-yah",
+      "zodiac_sign": "Scorpio",
+      "zodiac_dates": "Oct 23 - Nov 21",
+      "zodiac_planet": "Pluto",
+      "keywords": [
+        "Storms",
+        "Change",
+        "Transformation",
+        "Death",
+        "Rebirth",
+        "Wind"
+      ],
+      "description": "The eighth house of the Zodiac, ruled by Scorpio, governs transformation, death, rebirth, sex, and the mysteries of the unseen. This house represents the cycles of destruction and renewal that are essential to spiritual growth. Oya, the Orisha of wind, storms, and profound change, embodies the essence of this house. She is the force behind the tornadoes that uproot, the tempests that cleanse, and the winds that carry souls to the spirit realm. As a gatekeeper of death and rebirth, Oya is both feared and revered for her power to initiate deep, life-altering transformation. Aligned with Scorpio’s intensity, passion, and regenerative nature, and ruled by Pluto—the planet of power, rebirth, and the subconscious—Oya teaches us that all endings hold the seed of a new beginning. To honor Oya, rituals can be performed during Scorpio season or Pluto-related transits. Incorporate symbols like black candles, obsidian, feathers, or storm water to invoke her presence. Meditating on Oya’s energy can help you release what no longer serves you, face change with courage, and embrace the transformative journey with strength and clarity. She is the fierce wind that clears your path and the guardian who ushers you through life’s most powerful transitions."
+    },
+    {
+      "id": 9,
+      "name": "Obatala",
+      "pronunciation": "oh-bah-tah-LAH",
+      "zodiac_sign": "Sagittarius",
+      "zodiac_dates": "Nov 22 - Dec 21",
+      "zodiac_planet": "Jupiter",
+      "keywords": [
+        "Purity",
+        "Wisdom",
+        "Peace",
+        "Justice",
+        "Patience",
+        "Compassion"
+      ],
+      "description": "The ninth house of the Zodiac is the domain of higher learning, philosophy, travel, and spiritual growth. Ruled by Sagittarius and governed by Jupiter—the planet of wisdom, abundance, and expansion—this house represents our pursuit of deeper meaning and broader horizons. Obatala, the Orisha of purity, wisdom, and creation, embodies these principles. He is said to have been sent by the Supreme Being to form the Earth at the dawn of time and is credited with shaping the human body, placing the head last, thus earning the title 'owner of heads.' The head is symbolic of intellect, discernment, and higher understanding—core traits of the ninth house. As the father of all Orisha, Obatala is associated with peace, clarity, and justice. His alignment with Sagittarius reflects a quest for truth, ethical leadership, and spiritual elevation. To honor Obatala, perform rituals during Sagittarius season or during Jupiter-aligned events. Use white candles, white cloth, or offerings of coconut or rice to invite his presence. By connecting with Obatala’s energy, you open yourself to inner wisdom, personal growth, and divine guidance, allowing your spirit to expand beyond limitations and into the fullness of your purpose."
+    },
+    {
+      "id": 10,
+      "name": "Babalú-Ayé",
+      "pronunciation": "bah-bah-LOO ah-YEH",
+      "zodiac_sign": "Capricorn",
+      "zodiac_dates": "Dec 22 - Jan 19",
+      "zodiac_planet": "Saturn",
+      "keywords": [
+        "Illness",
+        "Healing",
+        "Plagues",
+        "Devotion",
+        "Suffering"
+      ],
+      "description": "The tenth house of the Zodiac, ruled by Capricorn and the planet Saturn, governs career, public life, social roles, and long-term goals. It reflects how we strive for recognition, status, and purpose in the broader structure of society. Saturn’s energy brings discipline, responsibility, and the karmic lessons required to achieve lasting success. In Yoruba cosmology, Saturn is associated with Babalú-Ayé, the Orisha of disease, healing, and divine retribution. Also known as Omolu or Sopona, Babalú-Ayé is both feared and revered as a powerful force capable of spreading illness and offering miraculous healing. Known as the 'Wrath of the Supreme God,' he punishes transgressions yet also brings deep purification and renewal. His alignment with Capricorn emphasizes the hard-earned wisdom that comes through trials, structure, and perseverance. To honor Babalú-Ayé, rituals can be held during Capricorn season or Saturn-aligned astrological events. Offerings may include white or brown candles, grains, or symbolic items like crutches or dogs—creatures closely associated with his lore. By working with Babalú-Ayé’s energy, you can navigate hardship with grace, strengthen your resilience, and manifest healing in both your personal and public life through devotion and disciplined growth."
+    },
+    
   {
     "id": 11,
     "name": "Shango",
