@@ -64,7 +64,7 @@
     },
     {
       "id": 5,
-      "name": "Orula (Orunmila)",
+      "name": "Orula",
       "pronunciation": "oh-ROO-lah",
       "zodiac_sign": "Leo",
       "zodiac_dates": "Jul 23 - Aug 22",
@@ -81,7 +81,7 @@
     },
     {
       "id": 6,
-      "name": "Eshu (Elegua)",
+      "name": "Eshu/Elegua",
       "pronunciation": "EH-shoo",
       "zodiac_sign": "Virgo",
       "zodiac_dates": "Aug 23 - Sep 22",
@@ -147,7 +147,7 @@
     },
     {
       "id": 10,
-      "name": "Babalú-Ayé",
+      "name": "Babalú",
       "pronunciation": "bah-bah-LOO ah-YEH",
       "zodiac_sign": "Capricorn",
       "zodiac_dates": "Dec 22 - Jan 19",
