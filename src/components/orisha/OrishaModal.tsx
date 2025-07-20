@@ -70,7 +70,7 @@ const OrishaCardModal: React.FC<OrishaModalProps> = ({ card, onClose }) => {
             <div className="w-full border border-gray-200 rounded-lg p-3 bg-gray-50 shadow-sm">
               <h2 className="text-xl sm:text-3xl font-bold text-gray-900">{card.name}</h2>
               <p className="text-sm text-gray-500 italic">
-                {card.pronunciation} Pronunciation
+              Pronunciation: {card.pronunciation} 
               </p>
             </div>
 
@@ -87,8 +87,8 @@ const OrishaCardModal: React.FC<OrishaModalProps> = ({ card, onClose }) => {
                   </span>
                 ))}
               </div>
-              <p className="text-sm text-gray-700">{card.zodiac_planet} Planet</p>
-              <p className="text-sm text-gray-500 italic">{card.zodiac_dates} Dates</p>
+              <p className="text-sm text-gray-700">Ruling Planet: {card.zodiac_planet}</p>
+              <p className="text-sm text-gray-500 italic">Dates: {card.zodiac_dates}</p>
             </div>
 
             {/* Keywords */}
