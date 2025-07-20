@@ -74,22 +74,33 @@ const OrishaCardModal: React.FC<OrishaModalProps> = ({ card, onClose }) => {
               </p>
             </div>
 
-            {/* Zodiac Section */}
-            <div className="w-full border border-gray-200 rounded-lg p-3 bg-white shadow-sm">
-              <h3 className="text-md font-semibold text-gray-800 mb-2">Zodiac Correlation</h3>
-              <div className="flex flex-wrap justify-center gap-2 mb-1">
-                {zodiacSigns.map((sign, idx) => (
-                  <span
-                    key={idx}
-                    className="bg-gray-100 px-2 py-1 rounded-full text-xs sm:text-sm font-medium border border-gray-300 hover:shadow-md transition"
-                  >
-                    {sign}
-                  </span>
-                ))}
-              </div>
-              <p className="text-sm text-gray-700">Ruling Planet: {card.zodiac_planet}</p>
-              <p className="text-sm text-gray-500 italic">Dates: {card.zodiac_dates}</p>
-            </div>
+            {(zodiacSigns.length > 0 || card.zodiac_dates || card.zodiac_planet) && (
+  <div className="w-full border border-gray-200 rounded-lg p-3 bg-white shadow-sm">
+    <h3 className="text-md font-semibold text-gray-800 mb-2">Zodiac Correlation</h3>
+
+    {zodiacSigns.length > 0 && (
+      <div className="flex flex-wrap justify-center gap-2 mb-1">
+        {zodiacSigns.map((sign, idx) => (
+          <span
+            key={idx}
+            className="bg-gray-100 px-2 py-1 rounded-full text-xs sm:text-sm font-medium border border-gray-300 hover:shadow-md transition"
+          >
+            {sign}
+          </span>
+        ))}
+      </div>
+    )}
+
+    {card.zodiac_planet && (
+      <p className="text-sm text-gray-700">Ruling Planet: {card.zodiac_planet}</p>
+    )}
+
+    {card.zodiac_dates && (
+      <p className="text-sm text-gray-500 italic">Dates: {card.zodiac_dates}</p>
+    )}
+  </div>
+)}
+
 
             {/* Keywords */}
             <div className="w-full border border-gray-200 rounded-lg p-3 bg-white shadow-sm">
