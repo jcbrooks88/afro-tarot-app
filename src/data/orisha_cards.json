@@ -193,5 +193,152 @@
         "Subconscious"
         ],
         "description": "Olokun, the Orisha of the ocean depths, governs the twelfth house of the Zodiac, ruled by Neptune and the sign Pisces. This mysterious realm symbolizes the subconscious, dreams, isolation, and hidden knowledge. Like the ocean floor—where Olokun is bound by seven chains—this house holds ancient secrets and unseen forces. Olokun’s energy resides in altered states of consciousness, spiritual initiation, and visionary insight. Associated with Pisces’ intuitive, empathetic qualities and Neptune’s dreamlike, spiritual power, Olokun awakens the inner genius and the soul’s deepest callings. This Orisha teaches that what is hidden may be most powerful. Honoring Olokun during Pisces season or Neptune-related events—using seashells, blue candles, or meditation—can help you access wisdom from beyond the veil and invite transformative healing through emotional and spiritual depth."
-    }
-]
+    },
+      {
+        "id": 13,
+        "name": "Aganju",
+        "pronunciation": "ah-GAHN-joo",
+        "keywords": ["volcano", "strength", "endurance", "earth"],
+        "description": "Aganju is the Orisha of volcanoes, the wilderness, and untamed land. He represents raw strength, stamina, and unyielding will. As a force of nature, Aganju symbolizes inner fire and spiritual endurance. He is often invoked during times of transformation and challenge. Some traditions describe him as a sibling or father to Shango."
+      },
+      {
+        "id": 14,
+        "name": "Aje",
+        "pronunciation": "ah-JEH",
+        "keywords": ["wealth", "prosperity", "marketplace", "abundance"],
+        "description": "Aje is the spirit of wealth and economic prosperity, often associated with marketplaces and trade. She governs material success and the responsible management of resources. Aje is revered by entrepreneurs and those seeking financial growth. Her power reminds us that abundance must be balanced with generosity and integrity."
+      },
+      {
+        "id": 15,
+        "name": "Ala",
+        "pronunciation": "AH-lah",
+        "keywords": ["earth", "fertility", "justice", "peace"],
+        "description": "Ala is the Igbo goddess of the earth, morality, fertility, and the underworld. As the mother of all living things, she governs the cycle of life and death. Ala also serves as the guardian of communal laws and ethics. Her presence ensures harmony between humanity and the natural world."
+      },
+      {
+        "id": 16,
+        "name": "Alegba",
+        "pronunciation": "ah-LEG-bah",
+        "keywords": ["messenger", "crossroads", "protection", "communication"],
+        "description": "Alegba is a variant of Eleggua, the divine messenger and guardian of the crossroads. He opens and closes spiritual paths and facilitates communication between humans and the divine. Alegba is invoked for guidance, clarity, and decision-making. He teaches us to pay attention to signs and consequences at life’s intersections."
+      },
+      {
+        "id": 17,
+        "name": "Aso",
+        "pronunciation": "AH-soh",
+        "keywords": ["cloth", "ancestry", "identity", "culture"],
+        "description": "Aso symbolizes sacred cloth and the cultural memory carried through fabric. In Yoruba tradition, clothing is a form of spiritual expression and social identity. Aso is honored in ceremonies and rites where ancestral lineage is celebrated. It reminds us of the threads that bind us to heritage and purpose."
+      },
+      {
+        "id": 18,
+        "name": "Egun",
+        "pronunciation": "EH-goon",
+        "keywords": ["ancestors", "ritual", "guidance", "lineage"],
+        "description": "Egun refers to the collective spirit of the ancestors in Yoruba spirituality. Honored through ritual and offerings, Egun represents ancestral wisdom, protection, and continuity. They act as guides for the living and demand respect for tradition and moral conduct. Ancestral veneration is central to spiritual grounding."
+      },
+      {
+        "id": 19,
+        "name": "Eji-Ogbe",
+        "pronunciation": "EH-jee OH-gbeh",
+        "keywords": ["destiny", "clarity", "truth", "illumination"],
+        "description": "Eji-Ogbe is the first and most powerful of the 256 Odu in the Ifá divination system. It represents light, truth, and new beginnings. This sign offers divine clarity and reinforces alignment with one’s destiny. Eji-Ogbe teaches that clarity and honesty bring lasting transformation."
+      },
+      {
+        "id": 20,
+        "name": "Eleggua",
+        "pronunciation": "eh-LEH-gwah",
+        "keywords": ["paths", "beginnings", "luck", "choices"],
+        "description": "Eleggua is the Orisha of roads, doors, and crossroads. As a divine trickster and gatekeeper, he controls fate and opportunity. He must be honored first in rituals to open pathways. Eleggua embodies both mischief and wisdom, teaching lessons through the twists and turns of life."
+      },
+      {
+        "id": 21,
+        "name": "Erinle",
+        "pronunciation": "EH-reen-leh",
+        "keywords": ["healing", "hunting", "medicine", "river"],
+        "description": "Erinle is a hunter and healer Orisha, closely linked to rivers and the forest. He represents the merging of science and nature, often called upon for physical and spiritual healing. Erinle’s energy is gentle yet powerful, guiding those who work in healthcare, herbalism, and caretaking."
+      },
+      {
+        "id": 22,
+        "name": "Esau",
+        "pronunciation": "EH-sah-oo",
+        "keywords": ["duality", "conflict", "ego", "strength"],
+        "description": "Esau, though more rooted in biblical tradition, can be interpreted symbolically in syncretic traditions. He represents human struggle, ego, and primal instinct. His story is a lesson in self-control, birthright, and reconciliation. Esau teaches the dangers of impulse and the value of patience."
+      },
+      {
+        "id": 23,
+        "name": "Igbale",
+        "pronunciation": "eeg-BAH-leh",
+        "keywords": ["ancestral realm", "spirit world", "transition", "respect"],
+        "description": "Igbale refers to the ancestral realm in Yoruba cosmology, where spirits reside after death. It is a sacred space of rest, reflection, and continuation. Igbale teaches the importance of remembering those who came before and maintaining spiritual cleanliness. It’s invoked in funeral rites and ancestor worship."
+      },
+      {
+        "id": 24,
+        "name": "Iku",
+        "pronunciation": "EE-koo",
+        "keywords": ["death", "finality", "transition", "spirit realm"],
+        "description": "Iku is the spirit of death in Yoruba belief. Not seen as evil, Iku is a necessary force that marks the end of one journey and the beginning of another. Death, under Iku, is a return to the ancestral fold. This Orisha reminds us of impermanence and the cycle of rebirth."
+      },
+      {
+        "id": 25,
+        "name": "Ira",
+        "pronunciation": "EE-rah",
+        "keywords": ["wisdom", "strength", "legacy", "elders"],
+        "description": "Ira represents the wisdom and spiritual might of the elders in Yoruba society. As a symbol of matriarchal leadership and ancestral memory, Ira honors the power of women in family and governance. Her influence ensures continuity of tradition and generational knowledge."
+      },
+      {
+        "id": 26,
+        "name": "Iroko",
+        "pronunciation": "ee-ROH-koh",
+        "keywords": ["sacred tree", "timelessness", "mystery", "ancestral spirits"],
+        "description": "Iroko is the sacred spirit that inhabits the ancient Iroko tree, known for its connection to time and ancestral power. It is a guardian of wisdom and silence. Offerings are often made to Iroko to secure blessings or settle spiritual debts. Iroko represents stillness, age, and continuity."
+      },
+      {
+        "id": 27,
+        "name": "Iyalode",
+        "pronunciation": "ee-yah-LOH-deh",
+        "keywords": ["leadership", "matriarchy", "dignity", "wisdom"],
+        "description": "Iyalode is a title and figure representing the highest-ranking woman in Yoruba society. She governs women’s affairs and serves as a voice in political and spiritual matters. Iyalode embodies female authority, honor, and balance. Her wisdom is instrumental in community decision-making."
+      },
+      {
+        "id": 28,
+        "name": "Ochosi",
+        "pronunciation": "oh-CHOH-see",
+        "keywords": ["justice", "hunting", "precision", "strategy"],
+        "description": "Ochosi is the Orisha of the hunt, law, and justice. A master archer and tactician, he represents accuracy in action and thought. He protects the innocent and pursues righteousness. Ochosi's influence is vital for those who seek clarity, discipline, and fairness in life."
+      },
+      {
+        "id": 29,
+        "name": "Oda-Iya-Mimo",
+        "pronunciation": "OH-dah ee-YAH mee-MOH",
+        "keywords": ["purity", "protection", "sacred motherhood", "spiritual law"],
+        "description": "Oda-Iya-Mimo, meaning 'Holy Mother’s Seat,' refers to the divine feminine principle in sacred spaces. She represents purity, nurturing power, and spiritual boundaries. This force is revered in rituals of consecration and divine protection. She stands as the matron of sacred wisdom and divine order."
+      },
+      {
+        "id": 30,
+        "name": "Olodumare",
+        "pronunciation": "oh-loh-doo-MAH-reh",
+        "keywords": ["creator", "divine source", "omnipotence", "origin"],
+        "description": "Olodumare is the Supreme Creator in Yoruba cosmology, the origin of all life and existence. Beyond gender and form, Olodumare embodies the totality of divine energy. Though not worshipped directly, all Orishas act through Olodumare’s will. This force reminds us of unity, balance, and divine order."
+      },
+      {
+        "id": 31,
+        "name": "Olosa",
+        "pronunciation": "oh-LOH-sah",
+        "keywords": ["lagoon", "feminine energy", "mystery", "depth"],
+        "description": "Olosa is the Orisha of lagoons and estuaries, representing mystery, femininity, and the unseen currents of emotion. She governs transitions between fresh and salt water. Often considered a counterpart or aspect of Oshun, Olosa reminds us of the hidden depths of feminine power and intuition."
+      },
+      {
+        "id": 32,
+        "name": "Orunmila",
+        "pronunciation": "oh-ROON-mee-lah",
+        "keywords": ["wisdom", "divination", "destiny", "guidance"],
+        "description": "Orunmila is the Orisha of wisdom, divination, and fate, guardian of the Ifá oracle. He knows the path of every soul and aids in decoding destiny. Orunmila is consulted through Babalawos and sacred rituals. He brings clarity, peace, and alignment with spiritual purpose."
+      },
+      {
+        "id": 33,
+        "name": "Osain",
+        "pronunciation": "oh-SAH-een",
+        "keywords": ["herbs", "medicine", "forest", "spiritual power"],
+        "description": "Osain is the Orisha of herbs, healing, and plant magic. He is a solitary, powerful spirit who knows the secrets of all natural remedies. Osain is essential to traditional healers and herbalists. His energy teaches reverence for the natural world and the quiet force of healing."
+      }    
+  ]
