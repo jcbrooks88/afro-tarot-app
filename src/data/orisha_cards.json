@@ -17,7 +17,7 @@
   {
     "id": 2,
     "name": "Oshun",
-    "pronunciation": "Love",
+    "pronunciation": "oh-SHOON",
     "zodiac_sign": "Taurus",
     "zodiac_dates": "Apr 20 - May 20",
     "zodiac_planet": "Venus",
@@ -97,20 +97,20 @@
     },
     {
       "id": 7,
-      "name": "Oba",
-      "pronunciation": "oh-bah",
+      "name": "Oshun",
+      "pronunciation": "oh-SHOON",
       "zodiac_sign": "Libra",
       "zodiac_dates": "Sep 23 - Oct 22",
       "zodiac_planet": "Venus",
       "keywords": [
-        "Sacrifice",
-        "Loyalty",
-        "Wifehood",
-        "Jealousy",
-        "Heartache"
+        "love",
+        "beauty",
+        "fertility",
+        "sensuality",
+        "compassion"
       ],
-      "description": "The seventh house of the Zodiac, ruled by Libra, governs relationships, marriage, contracts, and all forms of partnership. It is through these connections that we come to better understand ourselves, experiencing growth, harmony, and often transformation. Libra, an air sign ruled by Venus, seeks balance, justice, and union—qualities deeply reflected in the story of Oba, the Orisha of marriage, loyalty, and personal transformation. Oba was the first wife of Shango, devoted and dutiful, embodying the archetype of the ideal partner. Yet after being deceived by her sister Oya into using witchcraft to secure Shango’s love, Oba suffered betrayal and heartbreak. Fleeing to the cemetery in shame, she embarked on a profound journey of spiritual rebirth and transformation, eventually emerging in her full power. Oba’s myth speaks to the painful but powerful lessons we learn through intimate partnerships—how love, betrayal, sacrifice, and healing can all serve to awaken our deeper purpose. To honor Oba, you can reflect on your relationships during Libra season or Venus-related astrological transits. Her story reminds us that true strength and identity can emerge from heartache, and that balanced partnerships can be sacred mirrors for growth, purpose, and healing."
-    },
+      "description": "Oshun is the Yoruba Orisha of fresh water, love, beauty, fertility, and diplomacy. Known for her grace, sensuality, and charm, she is deeply connected to emotional healing and the sacred feminine. As the embodiment of divine femininity and pleasure, Oshun guides those who seek harmony in relationships and inner balance. Her association with the zodiac sign Libra reflects her desire for justice, peace, and aesthetic refinement. Oshun’s presence invites emotional openness, artistic expression, and the nurturing of both self and others."
+    },    
     {
       "id": 8,
       "name": "Oya",
@@ -147,7 +147,7 @@
     },
     {
       "id": 10,
-      "name": "Babalu",
+      "name": "Babalu-Aye",
       "pronunciation": "bah-bah-LOO ah-YEH",
       "zodiac_sign": "Capricorn",
       "zodiac_dates": "Dec 22 - Jan 19",
