@@ -9,6 +9,7 @@ const OrishaCardLibrary: React.FC = () => {
   const [filteredCards, setFilteredCards] = useState<OrishaCard[]>([]);
   const [selectedCard, setSelectedCard] = useState<OrishaCard | null>(null);
   const [modalVisible, setModalVisible] = useState(false);
+  const [showZodiacOnly, setShowZodiacOnly] = useState(false);
 
   const tarotData = rawData as OrishaCard[];
 
@@ -16,16 +17,22 @@ const OrishaCardLibrary: React.FC = () => {
     const delayDebounce = setTimeout(() => {
       const query = searchQuery.toLowerCase();
 
-      const filtered = tarotData.filter((card) =>
+      let filtered = tarotData.filter((card) =>
         card.name.toLowerCase().includes(query)
       );
+
+      if (showZodiacOnly) {
+        filtered = filtered.filter(
+          (card) => card.zodiac && typeof card.zodiac.sign === 'string'
+        );
+      }
 
       const sorted = [...filtered].sort((a, b) => a.name.localeCompare(b.name));
       setFilteredCards(sorted);
     }, 250);
 
     return () => clearTimeout(delayDebounce);
-  }, [searchQuery, tarotData]);
+  }, [searchQuery, showZodiacOnly, tarotData]);
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -45,11 +52,12 @@ const OrishaCardLibrary: React.FC = () => {
 
   const handleReset = () => {
     setSearchQuery('');
+    setShowZodiacOnly(false);
   };
 
   return (
     <div className="min-h-screen bg-[#F4F1EC] rounded-2xl border border-gray-200 px-4 sm:px-10 py-10 sm:py-12 shadow-md mx-auto max-w-screen-xl">
-      {/* Search + Reset Section */}
+      {/* Controls Section */}
       <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 sm:gap-6 mb-8">
         <input
           type="text"
@@ -59,12 +67,25 @@ const OrishaCardLibrary: React.FC = () => {
           onChange={(e) => setSearchQuery(e.target.value)}
           className="w-full sm:w-1/2 px-4 py-2 rounded-xl border bg-gray-50 border-gray-300 text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-burgundy transition"
         />
-        <button
-          onClick={handleReset}
-          className="text-sm bg-burgundy text-white px-4 py-2 rounded-lg hover:bg-opacity-90 transition self-start sm:self-auto"
-        >
-          Reset Search
-        </button>
+
+        <div className="flex gap-4">
+          <button
+            onClick={handleReset}
+            className="text-sm bg-burgundy text-white px-4 py-2 rounded-lg hover:bg-opacity-90 transition"
+          >
+            Reset Search
+          </button>
+          <button
+            onClick={() => setShowZodiacOnly(!showZodiacOnly)}
+            className={`text-sm px-4 py-2 rounded-lg border transition ${
+              showZodiacOnly
+                ? 'bg-burgundyLight text-white border-burgundy hover:bg-gray-100'
+                : 'bg-white text-gray-700 border-gray-300 hover:bg-gray-100'
+            }`}
+          >
+            {showZodiacOnly ? 'Show All' : 'Show Zodiac Only'}
+          </button>
+        </div>
       </div>
 
       {/* Card Grid */}
