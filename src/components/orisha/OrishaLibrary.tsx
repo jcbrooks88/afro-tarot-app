@@ -23,7 +23,7 @@ const OrishaCardLibrary: React.FC = () => {
 
       if (showZodiacOnly) {
         filtered = filtered.filter(
-          (card) => card.zodiac && typeof card.zodiac.sign === 'string'
+          (card) => card.zodiac_sign && typeof card.zodiac_sign === 'string'
         );
       }
 
