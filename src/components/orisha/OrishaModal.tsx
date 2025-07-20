@@ -76,7 +76,7 @@ const OrishaCardModal: React.FC<OrishaModalProps> = ({ card, onClose }) => {
 
             {/* Zodiac Section */}
             <div className="w-full border border-gray-200 rounded-lg p-3 bg-white shadow-sm">
-              <h3 className="text-md font-semibold text-gray-700 mb-2">Zodiac Correlation</h3>
+              <h3 className="text-md font-semibold text-gray-800 mb-2">Zodiac Correlation</h3>
               <div className="flex flex-wrap justify-center gap-2 mb-1">
                 {zodiacSigns.map((sign, idx) => (
                   <span
@@ -87,6 +87,7 @@ const OrishaCardModal: React.FC<OrishaModalProps> = ({ card, onClose }) => {
                   </span>
                 ))}
               </div>
+              <p className="text-sm text-gray-700">{card.zodiac_planet} Planet</p>
               <p className="text-sm text-gray-500 italic">{card.zodiac_dates} Dates</p>
             </div>
 
@@ -108,9 +109,12 @@ const OrishaCardModal: React.FC<OrishaModalProps> = ({ card, onClose }) => {
 
             {/* Description */}
             <div className="w-full border border-gray-200 rounded-lg p-4 bg-white shadow-sm text-left space-y-3">
-              <p>
-                <span className="font-semibold">Description:</span> {card.description}
-              </p>
+              <span className="font-semibold block">Description:</span>
+              {card.description.split('\n\n').map((paragraph, index) => (
+                <p key={index} className="text-gray-700">
+                  {paragraph}
+                </p>
+              ))}
             </div>
           </div>
         </div>
@@ -124,14 +128,14 @@ const OrishaCardModal: React.FC<OrishaModalProps> = ({ card, onClose }) => {
         >
           <div className="relative w-[80vw] sm:w-[50vw] max-h-[90vh] aspect-[2/3] transition-transform scale-100 hover:scale-105">
             <Image
-                src={cloudinarySrc}
-                alt={card.name}
-                fill
-                sizes="(max-width: 640px) 160px, 240px"
-                className="rounded-lg object-contain"
-                onError={(e) =>
-                  ((e.currentTarget as HTMLImageElement).src = '/images/fallback.webp')
-                }
+              src={cloudinarySrc}
+              alt={card.name}
+              fill
+              sizes="(max-width: 640px) 160px, 240px"
+              className="rounded-lg object-contain"
+              onError={(e) =>
+                ((e.currentTarget as HTMLImageElement).src = '/images/fallback.webp')
+              }
             />
           </div>
         </div>
