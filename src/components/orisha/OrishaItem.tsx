@@ -20,7 +20,7 @@ const BASE_URL = `https://res.cloudinary.com/${CLOUD_NAME}/image/upload/${BASE_F
 
 const OrishaCardItem: React.FC<CardItemProps> = ({ card, onPress }) => {
   const imageName = formatCardName(card.name);
-  const imageUrl = `${BASE_URL}/${imageName}.webp`;
+  const imageUrl = `${BASE_URL}/${imageName}.png`;
   const fallbackUrl = `/images/fallback.webp`;
 
   return (
