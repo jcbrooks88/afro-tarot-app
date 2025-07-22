@@ -4,6 +4,7 @@ import path from 'path';
 
 const BASE_DIR = '/Users/UNCBootcamp/career/NEW-AFRO-TAROT/DEV/afro-tarot-app/public/images';
 const FOLDERS = ['moon-phases', 'orishas', 'tarot-cards'];
+const __dirname = path.dirname(new URL(import.meta.url).pathname);
 const OUTPUT_JSON = path.join(__dirname, 'cards.json');
 
 cloudinary.config({
