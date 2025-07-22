@@ -50,7 +50,7 @@ const OrishaCardItem: React.FC<CardItemProps> = ({ card, onPress }) => {
         {card.name}
       </h3>
 
-      <h1 className="text-sm sm:text-base font-bold text-gray-800 text-center line-clamp-2">
+      <h1 className="text-sm sm:text-base font-medium text-teal text-center line-clamp-2">
         {card.pronunciation}
       </h1>
 
