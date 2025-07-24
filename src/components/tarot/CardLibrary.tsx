@@ -7,15 +7,47 @@ import FilterToggle from './FilterToggle';
 
 type FilterOption = 'All' | 'Major' | 'Minor' | 'Cups' | 'Pentacles' | 'Swords' | 'Wands';
 
+const majorArcanaOrder = [
+  'The Fool', 'The Magician', 'The High Priestess', 'The Empress', 'The Emperor',
+  'The Hierophant', 'The Lovers', 'The Chariot', 'Strength', 'The Hermit',
+  'Wheel of Fortune', 'Justice', 'The Hanged Man', 'Death', 'Temperance',
+  'The Devil', 'The Tower', 'The Star', 'The Moon', 'The Sun', 'Judgement', 'The World'
+];
+
+const minorRankOrder = [
+  'Ace', 'Two', 'Three', 'Four', 'Five', 'Six', 'Seven', 'Eight', 'Nine', 'Ten',
+  'Page', 'Knight', 'Queen', 'King'
+];
+
+const suitOrder = ['Cups', 'Pentacles', 'Swords', 'Wands'];
+
 const CardLibrary = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [filter, setFilter] = useState<FilterOption>('All');
   const [filteredCards, setFilteredCards] = useState<TarotCard[]>([]);
   const [selectedCard, setSelectedCard] = useState<TarotCard | null>(null);
   const [modalVisible, setModalVisible] = useState(false);
-  const [showFilters, setShowFilters] = useState(false); // mobile toggle
+  const [showFilters, setShowFilters] = useState(false);
 
   const tarotData = rawData as TarotCard[];
+
+  const getSortIndex = (card: TarotCard): number => {
+    if (card.arcana === 'Major') {
+      const index = majorArcanaOrder.indexOf(card.name);
+      return index !== -1 ? index : 9999;
+    }
+
+    const suit = card.suit ?? '';
+    const nameParts = card.name.split(' of ');
+    const rank = nameParts[0];
+
+    const suitIndex = suitOrder.indexOf(suit);
+    const rankIndex = minorRankOrder.indexOf(rank);
+
+    return (suitIndex !== -1 && rankIndex !== -1)
+      ? suitIndex * 100 + rankIndex
+      : 9999;
+  };
 
   useEffect(() => {
     const delayDebounce = setTimeout(() => {
@@ -34,7 +66,7 @@ const CardLibrary = () => {
         return matchesSearch && matchesFilter;
       });
 
-      const sorted = [...filtered].sort((a, b) => a.name.localeCompare(b.name));
+      const sorted = [...filtered].sort((a, b) => getSortIndex(a) - getSortIndex(b));
       setFilteredCards(sorted);
     }, 250);
 
