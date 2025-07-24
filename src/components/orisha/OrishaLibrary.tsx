@@ -27,8 +27,23 @@ const OrishaCardLibrary: React.FC = () => {
         );
       }
 
-      const sorted = [...filtered].sort((a, b) => a.name.localeCompare(b.name));
+      const zodiacOrder = [
+        'Aries', 'Taurus', 'Gemini', 'Cancer', 'Leo', 'Virgo',
+        'Libra', 'Scorpio', 'Sagittarius', 'Capricorn', 'Aquarius', 'Pisces',
+      ];
+      
+      const sorted = [...filtered].sort((a, b) => {
+        if (showZodiacOnly) {
+          const aIndex = zodiacOrder.indexOf(a.zodiac_sign || '');
+          const bIndex = zodiacOrder.indexOf(b.zodiac_sign || '');
+          return aIndex - bIndex;
+        } else {
+          return a.name.localeCompare(b.name);
+        }
+      });
+      
       setFilteredCards(sorted);
+      
     }, 250);
 
     return () => clearTimeout(delayDebounce);
